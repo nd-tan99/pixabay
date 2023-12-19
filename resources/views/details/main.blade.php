@@ -4,18 +4,18 @@
     <meta http-equiv="origin-trial"
         content="Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
     <script type="text/javascript" async=""
-        src="https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__vi.js"
-        crossorigin="anonymous"
+        src="https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__vi.js" crossorigin="anonymous"
         integrity="sha384-xRpZjxBg/UeuQFTqgUjpw12ns6jRYQDZUTldT+aIKQ00KTCQfMEy5B3vXdCvw3vV"></script>
     <script type="text/javascript" src="https://js.appboycdn.com/web-sdk/2.4/appboy.min.js" async=""></script>
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
     <script async="" src="//cdn.jsdelivr.net/npm/@snowplow/javascript-tracker@3.14.0/dist/sp.js"></script>
     <script async=""
-        src="https://www.googletagmanager.com/gtm.js?id=GTM-5CF9ZN&amp;gtm_auth=EzJCsJwDfVlqG8d1K6KKOg&amp;gtm_preview=env-1&amp;gtm_cookies_win=x"></script>
+        src="https://www.googletagmanager.com/gtm.js?id=GTM-5CF9ZN&amp;gtm_auth=EzJCsJwDfVlqG8d1K6KKOg&amp;gtm_preview=env-1&amp;gtm_cookies_win=x">
+    </script>
     <script src="https://cdn-au.onetrust.com/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8"
         data-domain-script="52f0ce5e-0c2d-48a6-8e40-e978c5058a96"></script>
     <script>
-        function OptanonWrapper() { }
+        function OptanonWrapper() {}
     </script>
     <title>Sea, Wave, Golden. Free Stock Video - Pixabay</title>
     <meta name="description"
@@ -72,7 +72,8 @@
                     </script>
     <link rel="alternate" hreflang="cs"
         href="https://pixabay.com/cs/videos/mo%C5%99e-m%C3%A1vat-zlat%C3%BD-p%C3%ADsek-4006/">
-    <link rel="alternate" hreflang="da" href="https://pixabay.com/da/videos/hav-b%C3%B8lge-gylden-sand-solopgang-4006/">
+    <link rel="alternate" hreflang="da"
+        href="https://pixabay.com/da/videos/hav-b%C3%B8lge-gylden-sand-solopgang-4006/">
     <link rel="alternate" hreflang="de" href="https://pixabay.com/de/videos/meer-welle-golden-sand-4006/">
     <link rel="alternate" hreflang="en" href="https://pixabay.com/videos/sea-wave-golden-sand-sunrise-4006/">
     <link rel="alternate" hreflang="es" href="https://pixabay.com/es/videos/mar-onda-dorado-arena-amanecer-4006/">
@@ -131,9 +132,37 @@
         crossorigin="anonymous">
     <link rel="preload" href="/static/frontend/open_sans-400-latin14.f57a62e9efddf6ace18b.woff2" as="font"
         crossorigin="anonymous">
-    <script>function getClicks() { let e = []; try { e = JSON.parse(window.localStorage.getItem("getty_ad_clicks")) } catch (e) { } return e instanceof Array || (e = []), e } function clickInWindow(e) { const t = e - 864e5; return function (e) { return "number" == typeof e && e > t } } if (getClicks().filter(clickInWindow(Date.now())).length >= 3) { const e = document.createElement("style"); document.head.appendChild(e); e.sheet.insertRule(".container--t3k85 { display: none; }") }</script>
     <script>
-        window.dataLayer = [{ "qForAds": "video:en:sea wave:VNM", "tags": "sea, wave, golden, sand, sunrise, ocean, water, surf, beach, nature, summer, tropical, splash, ocean wave, clean, clear, day, spray, shore, motion, wet, foam, reflection", "searchQuery": "", "locale": "en", "country": "vn", "hasDescription": "0", "canvaBannerVariant": null }];
+        function getClicks() {
+            let e = [];
+            try {
+                e = JSON.parse(window.localStorage.getItem("getty_ad_clicks"))
+            } catch (e) {}
+            return e instanceof Array || (e = []), e
+        }
+
+        function clickInWindow(e) {
+            const t = e - 864e5;
+            return function(e) {
+                return "number" == typeof e && e > t
+            }
+        }
+        if (getClicks().filter(clickInWindow(Date.now())).length >= 3) {
+            const e = document.createElement("style");
+            document.head.appendChild(e);
+            e.sheet.insertRule(".container--t3k85 { display: none; }")
+        }
+    </script>
+    <script>
+        window.dataLayer = [{
+            "qForAds": "video:en:sea wave:VNM",
+            "tags": "sea, wave, golden, sand, sunrise, ocean, water, surf, beach, nature, summer, tropical, splash, ocean wave, clean, clear, day, spray, shore, motion, wet, foam, reflection",
+            "searchQuery": "",
+            "locale": "en",
+            "country": "vn",
+            "hasDescription": "0",
+            "canvaBannerVariant": null
+        }];
     </script>
     <style>
         @-webkit-keyframes swal2-show {
@@ -3667,10 +3696,10 @@
             max-width: 100%;
         }
     </style>
-    <script src="https://cdn-au.onetrust.com/scripttemplates/6.31.0/otBannerSdk.js" async=""
-        type="text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@snowplow/browser-plugin-timezone@3.14.0/dist/index.umd.min.js"
-        async="1"></script>
+    <script src="https://cdn-au.onetrust.com/scripttemplates/6.31.0/otBannerSdk.js" async="" type="text/javascript">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@snowplow/browser-plugin-timezone@3.14.0/dist/index.umd.min.js" async="1">
+    </script>
     <style>
         .ejoy-sub-active {
             color: #1296ba !important;
@@ -7370,12 +7399,14 @@
                                     <div class="dropdown--QzC2F light--boaNg right--Yg1-e hidden--Q5vOS">
                                         <div class="dropdownMenu--XdQD-">
                                             <div class="dropdownMenuItem--yZ9j-">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh image--xraWQ"></span>
-                                                </div><label>All images</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh image--xraWQ"></span></div><label>All
+                                                    images</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j- indentByOne--jwxhb">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh photo--q4EAP"></span>
-                                                </div><label>Photos</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh photo--q4EAP"></span></div>
+                                                <label>Photos</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j- indentByOne--jwxhb">
                                                 <div class="icon--IMEft"><span
@@ -7383,16 +7414,19 @@
                                                 <label>Illustrations</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j- indentByOne--jwxhb">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh vector--FUgoN"></span>
-                                                </div><label>Vectors</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh vector--FUgoN"></span></div>
+                                                <label>Vectors</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j- active--yBWJC">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh video--ECx9r"></span>
-                                                </div><label>Videos</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh video--ECx9r"></span></div>
+                                                <label>Videos</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j-">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh music--VR9Xr"></span>
-                                                </div><label>Music</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh music--VR9Xr"></span></div>
+                                                <label>Music</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j-">
                                                 <div class="icon--IMEft"><span
@@ -7400,8 +7434,9 @@
                                                 <label>Sound Effects</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j-">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh flame--+xiI7"></span>
-                                                </div><label>GIFs</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh flame--+xiI7"></span></div>
+                                                <label>GIFs</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j-">
                                                 <div class="icon--IMEft"><span class="icon--L+lBh user--jPNiT"></span>
@@ -7420,7 +7455,8 @@
                                 <div class="triggerWrapper--NACCC"><button
                                         class="buttonBase--r4opq tertiaryButton--+4ehJ base--jzyee light--uBcBI"
                                         type="button"> <span class="label--Ngqjq">Explore</span><span
-                                            class="icon--L+lBh chevron-d--ne5Cd rightIcon--V-PNx"></span></button></div>
+                                            class="icon--L+lBh chevron-d--ne5Cd rightIcon--V-PNx"></span></button>
+                                </div>
                                 <div class="dropdown--QzC2F dark--pbGst right--Yg1-e hidden--Q5vOS">
                                     <div class="container--kDUDv">
                                         <div class="siteMenu--6po+J">
@@ -7522,57 +7558,57 @@
                                                                 class="dropdown--QzC2F dark--pbGst left--mbCrK hidden--Q5vOS">
                                                                 <div class="languageMenuContainer--jy7WL"><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/cs/videos/mo%C5%99e-m%C3%A1vat-zlat%C3%BD-p%C3%ADsek-4006/"><label>Čeština</label></a><a
+                                                                        href="https://pixabay.com/cs/videos/mraky-%C3%BAvod-nebe-po%C4%8Das%C3%AD-p%C5%99%C3%ADroda-16923/"><label>Čeština</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/da/videos/hav-b%C3%B8lge-gylden-sand-solopgang-4006/"><label>Dansk</label></a><a
+                                                                        href="https://pixabay.com/da/videos/skyer-intro-himmel-vejr-natur-16923/"><label>Dansk</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/de/videos/meer-welle-golden-sand-4006/"><label>Deutsch</label></a><a
+                                                                        href="https://pixabay.com/de/videos/wolken-intro-himmel-wetter-natur-16923/"><label>Deutsch</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/sea-wave-golden-sand-sunrise-4006/"><label>English</label></a><a
+                                                                        href="https://pixabay.com/videos/clouds-intro-sky-weather-nature-16923/"><label>English</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/es/videos/mar-onda-dorado-arena-amanecer-4006/"><label>Español</label></a><a
+                                                                        href="https://pixabay.com/es/videos/nubes-intro-cielo-tiempo-16923/"><label>Español</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/fr/videos/mer-vague-dor-sable-4006/"><label>Français</label></a><a
+                                                                        href="https://pixabay.com/fr/videos/des-nuages-intro-ciel-16923/"><label>Français</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/id/videos/laut-melambai-keemasan-pasir-4006/"><label>Indonesia</label></a><a
+                                                                        href="https://pixabay.com/id/videos/awan-intro-langit-cuaca-alam-16923/"><label>Indonesia</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/it/videos/mare-onda-doro-sabbia-alba-4006/"><label>Italiano</label></a><a
+                                                                        href="https://pixabay.com/it/videos/nuvole-intro-cielo-16923/"><label>Italiano</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/hu/videos/tenger-hull%C3%A1m-aranys%C3%A1rga-homok-4006/"><label>Magyar</label></a><a
+                                                                        href="https://pixabay.com/hu/videos/felh%C5%91k-bevezet%C5%91-%C3%A9g-id%C5%91j%C3%A1r%C3%A1s-16923/"><label>Magyar</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/nl/videos/zee-golf-gouden-zand-zonsopkomst-4006/"><label>Nederlands</label></a><a
+                                                                        href="https://pixabay.com/nl/videos/wolken-intro-lucht-weer-natuur-16923/"><label>Nederlands</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/no/videos/hav-b%C3%B8lge-gylden-sand-soloppgang-4006/"><label>Norsk</label></a><a
+                                                                        href="https://pixabay.com/no/videos/skyer-intro-himmel-v%C3%A6r-natur-16923/"><label>Norsk</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/pl/videos/morze-fala-z%C5%82oty-piasek-4006/"><label>Polski</label></a><a
+                                                                        href="https://pixabay.com/pl/videos/chmury-intro-niebo-pogoda-natura-16923/"><label>Polski</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/pt/videos/mar-aceno-dourado-areia-4006/"><label>Português</label></a><a
+                                                                        href="https://pixabay.com/pt/videos/nuvens-intro-c%C3%A9u-clima-natureza-16923/"><label>Português</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/ro/videos/mare-val-de-aur-nisip-r%C4%83s%C4%83rit-4006/"><label>Română</label></a><a
+                                                                        href="https://pixabay.com/ro/videos/nori-intro-cer-vreme-natura-16923/"><label>Română</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/sk/videos/more-m%C3%A1va%C5%A5-zlat%C3%BD-piesok-svitanie-4006/"><label>Slovenčina</label></a><a
+                                                                        href="https://pixabay.com/sk/videos/mraky-intro-obloha-po%C4%8Dasie-pr%C3%ADroda-16923/"><label>Slovenčina</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/fi/videos/meri-aalto-kultainen-hiekka-4006/"><label>Suomi</label></a><a
+                                                                        href="https://pixabay.com/fi/videos/pilvet-intro-taivas-s%C3%A4%C3%A4-luonne-16923/"><label>Suomi</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/sv/videos/hav-vinka-gyllene-sand-soluppg%C3%A5ng-4006/"><label>Svenska</label></a><a
+                                                                        href="https://pixabay.com/sv/videos/moln-intro-himmel-v%C3%A4der-natur-16923/"><label>Svenska</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/tr/videos/deniz-dalga-alt%C4%B1n-kum-g%C3%BCndo%C4%9Fumu-4006/"><label>Türkçe</label></a><a
+                                                                        href="https://pixabay.com/tr/videos/bulutlar-intro-g%C3%B6ky%C3%BCz%C3%BC-hava-durumu-16923/"><label>Türkçe</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/vi/videos/bi%E1%BB%83n-l%C3%A0n-s%C3%B3ng-v%C3%A0ng-c%C3%A1t-b%C3%ACnh-minh-4006/"><label>Việt</label></a><a
+                                                                        href="https://pixabay.com/vi/videos/nh%E1%BB%AFng-%C4%91%C3%A1m-m%C3%A2y-gi%E1%BB%9Bi-thi%E1%BB%87u-b%E1%BA%A7u-tr%E1%BB%9Di-16923/"><label>Việt</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/th/videos/%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5-%E0%B8%84%E0%B8%A5%E0%B8%99-%E0%B8%97%E0%B8%AD%E0%B8%87-%E0%B8%97%E0%B8%A3%E0%B8%B2%E0%B8%A2-%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%95%E0%B8%A2%E0%B8%82%E0%B8%99-4006/"><label>ไทย</label></a><a
+                                                                        href="https://pixabay.com/th/videos/%E0%B9%80%E0%B8%A1%E0%B8%86-%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%97%E0%B8%A3-%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%9F%E0%B8%B2-%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8-16923/"><label>ไทย</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/bg/videos/%D0%BC%D0%BE%D1%80%D0%B5-%D0%B2%D1%8A%D0%BB%D0%BD%D0%B0-%D0%B7%D0%BB%D0%B0%D1%82%D0%B5%D0%BD-%D0%BF%D1%8F%D1%81%D1%8A%D0%BA-%D0%B8%D0%B7%D0%B3%D1%80%D0%B5%D0%B2-4006/"><label>Български</label></a><a
+                                                                        href="https://pixabay.com/bg/videos/%D0%BE%D0%B1%D0%BB%D0%B0%D1%86%D0%B8-%D0%B8%D0%BD%D1%82%D1%80%D0%BE-%D0%BD%D0%B5%D0%B1%D0%B5-16923/"><label>Български</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/ru/videos/%D0%BC%D0%BE%D1%80%D0%B5-%D0%B2%D0%BE%D0%BB%D0%BD%D0%B0-%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9-%D0%BF%D0%B5%D1%81%D0%BE%D0%BA-4006/"><label>Русский</label></a><a
+                                                                        href="https://pixabay.com/ru/videos/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%B0-%D0%B8%D0%BD%D1%82%D1%80%D0%BE-%D0%BD%D0%B5%D0%B1%D0%BE-%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-16923/"><label>Русский</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/el/videos/%CE%B8%CE%AC%CE%BB%CE%B1%CF%83%CF%83%CE%B1-%CE%BA%CF%8D%CE%BC%CE%B1-%CF%87%CF%81%CF%85%CF%83%CE%B1%CF%86%CE%AD%CE%BD%CE%B9%CE%BF%CF%82-%CE%AC%CE%BC%CE%BC%CE%BF%CF%82-4006/"><label>Ελληνική</label></a><a
+                                                                        href="https://pixabay.com/el/videos/%CF%83%CF%8D%CE%BD%CE%BD%CE%B5%CF%86%CE%B1-intro-%CE%BF%CF%85%CF%81%CE%B1%CE%BD%CF%8C%CF%82-%CE%BA%CE%B1%CE%B9%CF%81%CF%8C%CF%82-%CF%86%CF%8D%CF%83%CE%B7-16923/"><label>Ελληνική</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/ja/videos/%E6%B5%B7-%E6%B3%A2-%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3-%E7%A0%82-4006/"><label>日本語</label></a><a
+                                                                        href="https://pixabay.com/ja/videos/%E9%9B%B2-%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD-%E7%A9%BA-%E5%A4%A9%E6%B0%97-%E8%87%AA%E7%84%B6-16923/"><label>日本語</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/ko/videos/%EB%B0%94%EB%8B%A4-%ED%8C%8C%EB%8F%84-%ED%99%A9%EA%B8%88-%EB%AA%A8%EB%9E%98-4006/"><label>한국어</label></a><a
+                                                                        href="https://pixabay.com/ko/videos/%EA%B5%AC%EB%A6%84-%EC%86%8C%EA%B0%9C-%ED%95%98%EB%8A%98-%EB%82%A0%EC%94%A8-%EC%9E%90%EC%97%B0-16923/"><label>한국어</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/zh/videos/sea-wave-golden-sand-sunrise-4006/"><label>简体中文</label></a>
+                                                                        href="https://pixabay.com/zh/videos/clouds-intro-sky-weather-nature-16923/"><label>简体中文</label></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -7584,9 +7620,10 @@
                                                 target="_blank" rel="noopener"><span
                                                     class="icon--L+lBh facebook--qtn-m"></span></a><a
                                                 href="https://www.instagram.com/pixabay/" target="_blank"
-                                                rel="noopener"><span class="icon--L+lBh instagram--aJkpQ"></span></a><a
-                                                href="https://twitter.com/pixabay" target="_blank" rel="noopener"><span
-                                                    class="icon--L+lBh twitter--e5tjD"></span></a><a
+                                                rel="noopener"><span
+                                                    class="icon--L+lBh instagram--aJkpQ"></span></a><a
+                                                href="https://twitter.com/pixabay" target="_blank"
+                                                rel="noopener"><span class="icon--L+lBh twitter--e5tjD"></span></a><a
                                                 href="http://www.pinterest.com.au/pixabay" target="_blank"
                                                 rel="noopener"><span class="icon--L+lBh pinterest--QFbJv"></span></a>
                                         </div>
@@ -7595,88 +7632,30 @@
                             </div>
                         </div>
                         <div class="mobileSearch--WI2Tv"><button class="container--R31bV light--AhiKe"
-                                type="button"><span class="icon--L+lBh search--+Zx4F icon--F8GFg"></span></button></div>
-                        <div class="notifications--uMX7J">
-                            <div class="container--bKEsb">
-                                <div class="tooltipTriggerWrapper--Afzn1"><button
-                                        class="container--R31bV iconButton--at+V4 light--AhiKe" type="button"><span
-                                            class="icon--L+lBh notifications--clc5d icon--F8GFg"></span></button></div>
-                            </div>
+                                type="button"><span class="icon--L+lBh search--+Zx4F icon--F8GFg"></span></button>
                         </div>
-                        <div class="userMenu--BWkSG">
-                            <div class="container--YKYLB">
-                                <div class="triggerWrapper--NACCC"><button
-                                        class="userMenuTrigger--iGCxt buttonBase--r4opq tertiaryButton--+4ehJ base--jzyee light--uBcBI"
-                                        type="button"> <span class="label--Ngqjq">
-                                            <div class="container--RXy5A default--iYncq"><img
-                                                    src="/static/img/profile_images/purple.svg" class="avatar--+DPkq"
-                                                    alt="u_b000xohuim"></div>
-                                        </span></button></div>
-                                <div class="dropdown--QzC2F dark--pbGst right--Yg1-e hidden--Q5vOS">
-                                    <div class="dropdownMenu--XdQD- menu--a1yEW">
-                                        <div class="dropdownMenuHeading--AaOzc">u_b000xohuim</div><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/users/u_b000xohuim-41287407/"><label>My profile</label></a><a
-                                            class="dropdownMenuItem--yZ9j-" href="/accounts/media/"><label>My
-                                                media</label></a><a class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/media/upload/"><label>Upload</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/media/statistics/"><label>Statistics</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/collections/"><label>Collections</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/following/"><label>Following</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/messages/inbox/"><label>Messages</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/images/tools/quality_rating/"><label>Community Voting</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/settings/"><label>Settings</label></a>
-                                        <div class="separator--4zb1P"></div>
-                                        <div class="searchSettings--Dkgzr"><label
-                                                class="wrapper--1s1Mv dark--YLTWZ"><button
-                                                    class="switch--xu-1+ primary--bHqJN" type="button" role="switch"
-                                                    aria-checked="false"><span class="slide--wu0Qe"><span
-                                                            class="knob--OR1vo"></span></span></button><span
-                                                    class="label--9F6qL">SafeSearch</span>
-                                                <div class="tooltipTriggerWrapper--Afzn1 helpIcon--60LmO"><span
-                                                        class="icon--L+lBh question--SOBjo"></span></div>
-                                                <p class="explainer--fqLV+">If you’re using Pixabay in a school or
-                                                    workplace, you can prevent most adult content from showing up by
-                                                    turning on the SafeSearch setting.</p>
-                                            </label><label class="wrapper--1s1Mv dark--YLTWZ"><button
-                                                    class="switch--xu-1+ primary--bHqJN" type="button" role="switch"
-                                                    aria-checked="false"><span class="slide--wu0Qe"><span
-                                                            class="knob--OR1vo"></span></span></button><span
-                                                    class="label--9F6qL">Hide AI generated</span>
-                                                <div class="tooltipTriggerWrapper--Afzn1 helpIcon--60LmO"><span
-                                                        class="icon--L+lBh question--SOBjo"></span></div>
-                                                <p class="explainer--fqLV+">Turn on the Hide AI generated setting to
-                                                    exclude media generated by Artificial Intelligence.</p>
-                                            </label></div>
-                                        <div class="separator--4zb1P"></div>
-                                        <div class="dropdownMenuItem--yZ9j-"><label>Logout</label></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mobileMenu--fvuiT"><button class="container--R31bV light--AhiKe" type="button"><span
-                                    class="icon--L+lBh hamburger--hiKLH icon--F8GFg"></span></button></div><a
-                            class="uploadButton--p9Oz2 buttonBase--r4opq primaryButton--h-+gi base--jzyee"
-                            href="/accounts/media/upload/"><span
+                        <div class="loginLinks--l3oiD"><button
+                                class="loginButton--uIEF2 buttonBase--r4opq tertiaryButton--+4ehJ base--jzyee light--uBcBI">
+                                <span class="label--Ngqjq">Log in</span></button><button
+                                class="loginButton--uIEF2 buttonBase--r4opq secondaryButton--xk9cO base--jzyee light--uBcBI">
+                                <span class="label--Ngqjq">Join</span></button></div>
+                        <div class="mobileMenu--fvuiT"><button class="container--R31bV light--AhiKe"
+                                type="button"><span class="icon--L+lBh hamburger--hiKLH icon--F8GFg"></span></button>
+                        </div><button
+                            class="uploadButton--p9Oz2 buttonBase--r4opq primaryButton--h-+gi base--jzyee"><span
                                 class="icon--L+lBh upload--pkHbe leftIcon--lqX0G"></span> <span
-                                class="label--Ngqjq">Upload</span></a>
+                                class="label--Ngqjq">Upload</span></button>
                     </div>
                 </header>
                 <div class="page--qGgEw contentContainer--FZrly">
                     @yield('content')
-                   @include('details.downloads.index')
+                    @include('details.downloads.index')
                 </div>
                 <footer class="footer--e9DSK">
                     <div class="siteFooter--lLXVf">
                         <div class="main--G20EO"><svg viewBox="0 0 120 33" xmlns="http://www.w3.org/2000/svg"
-                                fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
-                                class="logo--Pecw4">
+                                fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round"
+                                stroke-miterlimit="2" class="logo--Pecw4">
                                 <path
                                     d="M9.059 7.279c4.417-.1 8.564 3.492 9.03 7.897.56 3.872-1.72 7.893-5.287 9.464-2.163 1.073-4.604.743-6.93.798H3.599v7.28H.002c.007-5.617-.014-11.234.01-16.85.12-4.186 3.545-7.932 7.682-8.49.45-.066.91-.1 1.365-.1v.001zm0 14.56c2.596.064 5.03-1.96 5.42-4.533.517-2.588-1.135-5.37-3.66-6.146-2.438-.866-5.372.272-6.564 2.575-.922 1.576-.594 3.434-.656 5.167v2.938h5.46v-.001zM19.826 7.191h3.557v18.16h-3.556V7.19l-.001.001zm14.25 11.42h.13l5.057 6.745h4.41l-6.874-9.34L42.895 7.2h-4.41l-4.28 6.225h-.128l-4.28-6.224h-4.41l6.095 8.818-6.873 9.336h4.41l5.057-6.744z"
                                     fill="currentColor" fill-rule="nonzero"></path>
@@ -7693,8 +7672,8 @@
                                     target="_blank"><span class="icon--L+lBh pinterest--QFbJv"></span></a><a
                                     href="https://twitter.com/pixabay" aria-label="Twitter" target="_blank"><span
                                         class="icon--L+lBh twitter--e5tjD"></span></a><a
-                                    href="https://www.facebook.com/pixabay" aria-label="Faceboot" target="_blank"><span
-                                        class="icon--L+lBh facebook--qtn-m"></span></a></div>
+                                    href="https://www.facebook.com/pixabay" aria-label="Faceboot"
+                                    target="_blank"><span class="icon--L+lBh facebook--qtn-m"></span></a></div>
                         </div>
                         <div class="links--3a0vE">
                             <div class="group--eZ22C"><span class="title--nIlBr">Discover</span><a
@@ -7704,10 +7683,11 @@
                                         class="newTag--sJwf4">New</span></a><a href="/images/search/"><span
                                         class="label--cpKf1">Popular Images</span></a><a href="/videos/search/"><span
                                         class="label--cpKf1">Popular Videos</span></a><a href="/music/search/"><span
-                                        class="label--cpKf1">Popular Music</span></a><a href="/popular-searches/"><span
-                                        class="label--cpKf1">Popular Searches</span></a></div>
-                            <div class="group--eZ22C"><span class="title--nIlBr">Community</span><a href="/blog/"><span
-                                        class="label--cpKf1">Blog</span></a><a href="/forum/"><span
+                                        class="label--cpKf1">Popular Music</span></a><a
+                                    href="/popular-searches/"><span class="label--cpKf1">Popular Searches</span></a>
+                            </div>
+                            <div class="group--eZ22C"><span class="title--nIlBr">Community</span><a
+                                    href="/blog/"><span class="label--cpKf1">Blog</span></a><a href="/forum/"><span
                                         class="label--cpKf1">Forum</span></a><a href="/users/"><span
                                         class="label--cpKf1">Creators</span></a><a href="/cameras/"><span
                                         class="label--cpKf1">Cameras</span></a></div>
@@ -7715,9 +7695,12 @@
                                     href="/service/about/"><span class="label--cpKf1">About Us</span></a><a
                                     href="/service/faq/"><span class="label--cpKf1">FAQ</span></a><a
                                     href="/service/license-summary/"><span class="label--cpKf1">License
-                                        Summary</span></a><a href="/service/terms/"><span class="label--cpKf1">Terms of
-                                        Service</span></a><a href="/service/privacy/"><span class="label--cpKf1">Privacy
-                                        Policy</span></a><a href="/service/cookies/"><span class="label--cpKf1">Cookies
+                                        Summary</span></a><a href="/service/terms/"><span class="label--cpKf1">Terms
+                                        of
+                                        Service</span></a><a href="/service/privacy/"><span
+                                        class="label--cpKf1">Privacy
+                                        Policy</span></a><a href="/service/cookies/"><span
+                                        class="label--cpKf1">Cookies
                                         Policy</span></a><a href="/service/about/api/"><span
                                         class="label--cpKf1">API</span></a></div>
                         </div>
@@ -7739,30 +7722,876 @@
         window.__PAGE__ = 'media_show';
         window.__LANG__ = 'en';
         window.__BOOTSTRAP_URL__ = '';
-        window.__BOOTSTRAP__ = { "request": { "location": { "canonicalHref": "https://pixabay.com/videos/sea-wave-golden-sand-sunrise-4006/", "host": "https://pixabay.com", "protocol": "https", "pathname": "/videos/sea-wave-golden-sand-sunrise-4006/", "path": "/videos/sea-wave-golden-sand-sunrise-4006/", "href": "https://pixabay.com/videos/sea-wave-golden-sand-sunrise-4006/" }, "bootstrapUrl": "", "userAgent": { "isMobile": false, "isTablet": false, "isBot": false, "isApp": false }, "language": "en", "languages": [{ "code": "cs", "name": "Čeština", "href": "https://pixabay.com/cs/videos/mo%C5%99e-m%C3%A1vat-zlat%C3%BD-p%C3%ADsek-4006/" }, { "code": "da", "name": "Dansk", "href": "https://pixabay.com/da/videos/hav-b%C3%B8lge-gylden-sand-solopgang-4006/" }, { "code": "de", "name": "Deutsch", "href": "https://pixabay.com/de/videos/meer-welle-golden-sand-4006/" }, { "code": "en", "name": "English", "href": "https://pixabay.com/videos/sea-wave-golden-sand-sunrise-4006/" }, { "code": "es", "name": "Español", "href": "https://pixabay.com/es/videos/mar-onda-dorado-arena-amanecer-4006/" }, { "code": "fr", "name": "Français", "href": "https://pixabay.com/fr/videos/mer-vague-dor-sable-4006/" }, { "code": "id", "name": "Indonesia", "href": "https://pixabay.com/id/videos/laut-melambai-keemasan-pasir-4006/" }, { "code": "it", "name": "Italiano", "href": "https://pixabay.com/it/videos/mare-onda-doro-sabbia-alba-4006/" }, { "code": "hu", "name": "Magyar", "href": "https://pixabay.com/hu/videos/tenger-hull%C3%A1m-aranys%C3%A1rga-homok-4006/" }, { "code": "nl", "name": "Nederlands", "href": "https://pixabay.com/nl/videos/zee-golf-gouden-zand-zonsopkomst-4006/" }, { "code": "no", "name": "Norsk", "href": "https://pixabay.com/no/videos/hav-b%C3%B8lge-gylden-sand-soloppgang-4006/" }, { "code": "pl", "name": "Polski", "href": "https://pixabay.com/pl/videos/morze-fala-z%C5%82oty-piasek-4006/" }, { "code": "pt", "name": "Português", "href": "https://pixabay.com/pt/videos/mar-aceno-dourado-areia-4006/" }, { "code": "ro", "name": "Română", "href": "https://pixabay.com/ro/videos/mare-val-de-aur-nisip-r%C4%83s%C4%83rit-4006/" }, { "code": "sk", "name": "Slovenčina", "href": "https://pixabay.com/sk/videos/more-m%C3%A1va%C5%A5-zlat%C3%BD-piesok-svitanie-4006/" }, { "code": "fi", "name": "Suomi", "href": "https://pixabay.com/fi/videos/meri-aalto-kultainen-hiekka-4006/" }, { "code": "sv", "name": "Svenska", "href": "https://pixabay.com/sv/videos/hav-vinka-gyllene-sand-soluppg%C3%A5ng-4006/" }, { "code": "tr", "name": "Türkçe", "href": "https://pixabay.com/tr/videos/deniz-dalga-alt%C4%B1n-kum-g%C3%BCndo%C4%9Fumu-4006/" }, { "code": "vi", "name": "Việt", "href": "https://pixabay.com/vi/videos/bi%E1%BB%83n-l%C3%A0n-s%C3%B3ng-v%C3%A0ng-c%C3%A1t-b%C3%ACnh-minh-4006/" }, { "code": "th", "name": "ไทย", "href": "https://pixabay.com/th/videos/%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5-%E0%B8%84%E0%B8%A5%E0%B8%99-%E0%B8%97%E0%B8%AD%E0%B8%87-%E0%B8%97%E0%B8%A3%E0%B8%B2%E0%B8%A2-%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%95%E0%B8%A2%E0%B8%82%E0%B8%99-4006/" }, { "code": "bg", "name": "Български", "href": "https://pixabay.com/bg/videos/%D0%BC%D0%BE%D1%80%D0%B5-%D0%B2%D1%8A%D0%BB%D0%BD%D0%B0-%D0%B7%D0%BB%D0%B0%D1%82%D0%B5%D0%BD-%D0%BF%D1%8F%D1%81%D1%8A%D0%BA-%D0%B8%D0%B7%D0%B3%D1%80%D0%B5%D0%B2-4006/" }, { "code": "ru", "name": "Русский", "href": "https://pixabay.com/ru/videos/%D0%BC%D0%BE%D1%80%D0%B5-%D0%B2%D0%BE%D0%BB%D0%BD%D0%B0-%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9-%D0%BF%D0%B5%D1%81%D0%BE%D0%BA-4006/" }, { "code": "el", "name": "Ελληνική", "href": "https://pixabay.com/el/videos/%CE%B8%CE%AC%CE%BB%CE%B1%CF%83%CF%83%CE%B1-%CE%BA%CF%8D%CE%BC%CE%B1-%CF%87%CF%81%CF%85%CF%83%CE%B1%CF%86%CE%AD%CE%BD%CE%B9%CE%BF%CF%82-%CE%AC%CE%BC%CE%BC%CE%BF%CF%82-4006/" }, { "code": "ja", "name": "日本語", "href": "https://pixabay.com/ja/videos/%E6%B5%B7-%E6%B3%A2-%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3-%E7%A0%82-4006/" }, { "code": "ko", "name": "한국어", "href": "https://pixabay.com/ko/videos/%EB%B0%94%EB%8B%A4-%ED%8C%8C%EB%8F%84-%ED%99%A9%EA%B8%88-%EB%AA%A8%EB%9E%98-4006/" }, { "code": "zh", "name": "简体中文", "href": "https://pixabay.com/zh/videos/sea-wave-golden-sand-sunrise-4006/" }], "languageUrlPrefix": "", "noindex": false, "nofollow": false, "seo": { "metaTitle": "Sea, Wave, Golden. Free Stock Video", "metaDescription": "Download this free video of Sea Wave Golden from Pixabay's vast library of royalty-free stock images, videos and music.", "h1Text": "Sea wave golden free stock video. Free for use & download.", "h2Text": "", "relatedKeywords": [] }, "ogTags": { "title": "Sea, Wave, Golden. Free Stock Video", "description": "Download this free video of Sea Wave Golden from Pixabay's vast library of royalty-free stock images, videos and music.", "image": "https://i.vimeocdn.com/video/583481279-cb986541e5371d720aa372625619372d35070e727d7972c7a5e111abb3fc123c-d_640x360.jpg" }, "i18nStrings": {}, "gtmNoscriptSnippetParams": "id=GTM-5CF9ZN&gtm_auth=EzJCsJwDfVlqG8d1K6KKOg&gtm_preview=env-1&gtm_cookies_win=x", "gtmScriptSnippet": "<scr" + "ipt>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=EzJCsJwDfVlqG8d1K6KKOg&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5CF9ZN');</scr" + "ipt>", "snowplowSnippet": "<scr" + "ipt type='text/javascript' async=1>;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//cdn.jsdelivr.net/npm/@snowplow/javascript-tracker@3.14.0/dist/sp.js','snowplow'));window.snowplow('newTracker', 'sp', 'webhooks.fivetran.com/snowplow/5965a13a-0208-4b09-9f16-449198306fea', {    appId: 'frontend', withCredentials: false,     cookieSameSite: 'Lax',    cookieSecure: true,    platform: 'web',    post: true});window.snowplow('newTracker', 'sp2', 'api.canva.com/_spi/ae/snowplow/d5a6cd30-7d92-477e-9ea9-2a10fce46e2c', {    appId: 'frontend', withCredentials: false,     cookieSameSite: 'Lax',    cookieSecure: true,    platform: 'web',    post: true});window.snowplow('setUserIdFromCookie', 'user_id');window.snowplow('addPlugin', 'https://cdn.jsdelivr.net/npm/@snowplow/browser-plugin-timezone@3.14.0/dist/index.umd.min.js', ['snowplowTimezone', 'TimezonePlugin']);</scr" + "ipt>", "dataLayer": [{ "qForAds": "video:en:sea wave:VNM", "tags": "sea, wave, golden, sand, sunrise, ocean, water, surf, beach, nature, summer, tropical, splash, ocean wave, clean, clear, day, spray, shore, motion, wet, foam, reflection", "searchQuery": "", "locale": "en", "country": "vn", "hasDescription": "0", "canvaBannerVariant": null }], "analyticsContext": { "page": "video_show", "page_locale": "en", "logged_in": true, "media_id": "4006", "media_type": "video", "media_tags": "sea, wave, golden, sand, sunrise, ocean, water, surf, beach, nature, summer, tropical, splash, ocean wave, clean, clear, day, spray, shore, motion, wet, foam, reflection", "file_size": 155391307, "file_extension": "mp4", "q_for_ads": "video:en:sea wave:VNM", "feature_flags": "{\"flags\":[129,179,214,130,123,82,167,144,114,161,173,85,155,125,165],\"switches\":[89,67,15,42,62,81,63],\"samples\":[12]}" }, "user": { "id": 41287407, "username": "u_b000xohuim", "firstName": "", "lastName": "", "email": "devsp2023@gmail.com", "isActive": true, "isAnonymous": false, "isStaff": false, "isSuperuser": false, "isReliable": false, "isMediaEditor": false, "permissions": [], "lastLogin": "2023-12-16 03:05:11.136242", "uploadsDisabled": false, "editTagsDisabled": false, "messageCount": 0, "profileImage": "/static/img/profile_images/purple.svg", "profileImage2x": "/static/img/profile_images/purple.svg", "profileUrl": "/users/u_b000xohuim-41287407/", "unreadNotificationsCount": 0, "showRecaptcha": true, "canReportSpamComments": false, "permittedUploads": 7 }, "adminTools": [], "flags": {}, "serviceCredentials": { "googleClientId": "575185734362.apps.googleusercontent.com", "facebookAppId": "114593902037957", "recaptchaSiteKey": "6LeyhLIaAAAAAI8XfF3RoG62z0L0RLUrgGVb1p_z", "wechatAppId": "wx51b436351abaf7b7", "oneTrustSdkUrl": "https://cdn-au.onetrust.com/scripttemplates/otSDKStub.js", "oneTrustSdkDomainScript": "52f0ce5e-0c2d-48a6-8e40-e978c5058a96" }, "security": { "timestamp": "1702727214", "hash": "e0fa7833bee1b721e2340ea9cace3b74b1424dca", "signature": "ssr:1rET8A:Ian5weF1WsWMUH-akTShPNzjpTzW9P9KjWMRuKWMKbE" }, "auth": { "loginUrlTemplate": "/accounts/login/", "registerUrlTemplate": "/accounts/register/", "socialAuthUrlTemplate": "/accounts/auth/{provider}/", "wechatAuthIframeUrlTemplate": "/accounts/auth/wechat/iframe/", "resendConfirmEmailUrlTemplate": "/accounts/register/resend_confirmation/?pk={userId}", "resetPasswordUrlTemplate": "/accounts/reset_password/" }, "featureFlags": { "useWechatAuth": false, "useAutocompleteSuggestions": true, "useCloudflareSuggestions": true, "showNewGettyCopy": false, "gettyTrackClicks": true, "useTransparentStatus": true, "reactAttributionAds": true, "safesearchForAudio": true, "useMediaAdminMenu": false, "displayAvailableForHire": true, "tag_ai_generated_media": true, "useVideoOrientationFilter": true, "useAwardsTab": true, "useMediaIndexInfiniteScroll": true, "showRadioPromoOnMusicIndex": true, "smallerMediaOnMdp": true, "gettyAdsFirstOnMobileSrp": true, "aiFlagsOnWebsite": true, "showMdpGettyBrandAd": false, "showPostDownloadSurvey": false, "showMergerNotice": false, "useNewLazyImg": false, "spellCheckMediaSearch": false }, "collectVitalsUrl": "/collect/web-vitals/", "collectVitalsSampleRate": 1, "sentrySampleRate": 0, "mediaCount": 4.5, "likedMedia": [], "collectedMedia": [], "followedUsers": [], "safesearch": "", "hideAiGenerated": false }, "page": { "pageType": "media_show", "mediaItem": { "id": 4006, "width": 3840, "height": 2160, "duration": 40, "mediaType": "video", "mediaSubType": null, "mediaDescriptiveType": "video", "sources": { "thumbnail": "https://i.vimeocdn.com/video/583481279-cb986541e5371d720aa372625619372d35070e727d7972c7a5e111abb3fc123c-d_640x360.jpg", "metaThumbnail": "https://i.vimeocdn.com/video/583481279-cb986541e5371d720aa372625619372d35070e727d7972c7a5e111abb3fc123c-d_640x360.jpg", "mp4": "https://cdn.pixabay.com/vimeo/176282263/sea-4006.mp4?width=1920&hash=f252f0fe3237a232bf828a00fc2a49596fa1ca35", "mp4_tiny": "https://cdn.pixabay.com/vimeo/176282263/sea-4006.mp4?width=640&hash=443d241d5fc3f7067553999f93dbe9a9b0034954" }, "nsfw": false, "isAiGenerated": false, "uploadDate": "2016-07-26T07:17:11.981558", "href": "/videos/sea-wave-golden-sand-sunrise-4006/", "alt": "Sea, Wave, Golden, Sand, Sunrise, Ocean", "title": null, "description": "", "name": "Sea, Wave, Golden, Sand", "tagLinks": "<a href=\"/videos/search/sea/\">sea</a> <a href=\"/videos/search/wave/\">wave</a> <a href=\"/videos/search/golden/\">golden</a> <a href=\"/videos/search/sand/\">sand</a>", "likeCount": 5236, "likeHref": "/accounts/like/video/4006/", "commentCount": 1939, "commentHref": "/videos/sea-wave-golden-sand-sunrise-4006/#comments", "contentIdCertificateUrl": null, "attributionHtml": "Video by <a href=\"https://pixabay.com/users/outlinez-1024927/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=4006\">Dimitar Tzankov</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=4006\">Pixabay</a>", "vector": false, "isEditorsChoice": true, "isLowQuality": false, "qualityStatus": 5, "user": { "id": 1024927, "username": "outlinez", "firstName": "Dimitar", "lastName": "Tzankov", "avatarSrc": "https://cdn.pixabay.com/user/2017/10/03/16-01-13-529_96x96.png", "profileUrl": "/users/outlinez-1024927/", "socialLinks": [{ "url": "https://www.pond5.com/artist/framelinez", "type": 5 }], "donation": { "paypal": "myfreshes@gmail.com", "method": 2 }, "followerCount": 2024, "aboutMe": "Web designer and hobbyist photographer", "isAvailableForHire": false, "likeCount": 5899, "viewCount": 2711687, "downloadCount": 1192388, "editorsChoiceCount": 1, "commentsEnabled": true }, "viewCount": 2618635, "downloadCount": 1144830, "collectionCount": 5728, "publishedDate": "2016-07-26", "tags": ["sea", "wave", "golden", "sand", "sunrise", "ocean", "water", "surf", "beach", "nature", "summer", "tropical", "splash", "ocean wave", "clean", "clear", "day", "spray", "shore", "motion", "wet", "foam", "reflection"], "fileFormat": "MP4", "downloadSources": [{ "label": "640×360", "format": "MP4", "size": "2.5 MB", "fileName": "video-4006_tiny.mp4" }, { "label": "960×540", "format": "MP4", "size": "7.4 MB", "fileName": "video-4006_small.mp4" }, { "label": "1280×720", "format": "MP4", "size": "12.5 MB", "fileName": "video-4006_medium.mp4" }, { "label": "1920×1080", "format": "MP4", "size": "32.5 MB", "fileName": "video-4006_large.mp4" }, { "label": "3840×2160", "format": "MP4", "size": "155.4 MB", "fileName": "video-4006_source.mp4" }], "canvaId": null, "statusName": null, "lang": null, "translated": null, "unreviewedTags": null, "vimeoId": "176282263", "isVimeoReady": true, "fps": null, "genres": null, "movements": null, "moods": null, "themes": null }, "relatedMedia": { "items": [{ "id": 24216, "width": 1920, "height": 1080, "duration": 31, "mediaType": "video", "mediaSubType": null, "mediaDescriptiveType": "video", "sources": { "thumbnail": "https://i.vimeocdn.com/video/789067813-97eab0d7a31c715fe2078922689de7234e85dd5153349d4df9e58595dbe8df83-d_640x360.jpg", "metaThumbnail": "https://i.vimeocdn.com/video/789067813-97eab0d7a31c715fe2078922689de7234e85dd5153349d4df9e58595dbe8df83-d_640x360.jpg", "mp4": "https://cdn.pixabay.com/vimeo/340670744/sea-24216.mp4?width=640&hash=f5d8caac458392ac811be5aaf088a820fbcb1fdb", "embed": "https://player.vimeo.com/video/340670744" }, "nsfw": false, "isAiGenerated": false, "uploadDate": "2023-12-16T11:46:54.749878", "href": "/videos/sea-ocean-wave-beach-blue-nature-24216/", "alt": "Sea, Ocean, Wave, Beach, Blue, Nature", "title": null, "description": "Sea, Ocean, Wave, Beach, Blue, Nature, Pacific, Sand, Water", "name": "Sea, Ocean, Wave, Beach, Blue", "tagLinks": "<a href=\"/videos/search/sea/\">sea</a> <a href=\"/videos/search/ocean/\">ocean</a> <a href=\"/videos/search/wave/\">wave</a> <a href=\"/videos/search/beach/\">beach</a>", "likeCount": 3115, "likeHref": "/accounts/like/video/24216/", "commentCount": 1002, "commentHref": "/videos/sea-ocean-wave-beach-blue-nature-24216/#comments", "contentIdCertificateUrl": null, "attributionHtml": "Video by <a href=\"https://pixabay.com/users/javlemus-12694742/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=24216\">javlemus</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=24216\">Pixabay</a>", "vector": false, "isEditorsChoice": true, "isLowQuality": false, "qualityStatus": 5, "user": { "id": 12694742, "username": "javlemus", "firstName": "", "lastName": "", "avatarSrc": "https://cdn.pixabay.com/user/2020/06/11/23-30-04-124_96x96.jpg", "profileUrl": "/users/javlemus-12694742/", "socialLinks": [], "donation": { "paypal": "VMRKLYVL2DEYN", "method": 2 }, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "viewCount": 1023075, "downloadCount": 500065 }, { "id": 135658, "width": 3840, "height": 2160, "duration": 9, "mediaType": "video", "mediaSubType": null, "mediaDescriptiveType": "video", "sources": { "thumbnail": "https://i.vimeocdn.com/video/1534871554-04395a9a937e020640cb9cf101527b1d647bfa4703fe35d55e9ccfc25a086f28-d_640x360.jpg", "metaThumbnail": "https://i.vimeocdn.com/video/1534871554-04395a9a937e020640cb9cf101527b1d647bfa4703fe35d55e9ccfc25a086f28-d_640x360.jpg", "mp4": "https://cdn.pixabay.com/vimeo/764361528/ocean-135658.mp4?width=1280&hash=b159d919c87755ce37418ce06517384443e33297", "embed": "https://player.vimeo.com/video/764361528" }, "nsfw": false, "isAiGenerated": false, "uploadDate": "2023-12-16T11:46:54.751086", "href": "/videos/ocean-beach-sunset-sea-atmosphere-135658/", "alt": "Sunset and its reflection on the sea", "title": null, "description": "Ocean, Beach, Sunset, Sea, Atmosphere, Relaxing, Relaxation", "name": "Ocean, Beach, Sunset, Sea", "tagLinks": "<a href=\"/videos/search/ocean/\">ocean</a> <a href=\"/videos/search/beach/\">beach</a> <a href=\"/videos/search/sunset/\">sunset</a> <a href=\"/videos/search/sea/\">sea</a>", "likeCount": 1781, "likeHref": "/accounts/like/video/135658/", "commentCount": 315, "commentHref": "/videos/ocean-beach-sunset-sea-atmosphere-135658/#comments", "contentIdCertificateUrl": null, "attributionHtml": "Video by <a href=\"https://pixabay.com/users/mohammedksm-30639570/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=135658\">mohammedksm</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=135658\">Pixabay</a>", "vector": false, "isEditorsChoice": true, "isLowQuality": false, "qualityStatus": 5, "user": { "id": 30639570, "username": "mohammedksm", "firstName": "", "lastName": "", "avatarSrc": "https://cdn.pixabay.com/user/2022/10/20/18-00-07-973_96x96.jpg", "profileUrl": "/users/mohammedksm-30639570/", "socialLinks": [], "donation": { "paypal": "https://www.paypal.me/mohammedelkasmi19", "method": 1 }, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "viewCount": 392418, "downloadCount": 164172 }, { "id": 31377, "width": 3840, "height": 2160, "duration": 29, "mediaType": "video", "mediaSubType": null, "mediaDescriptiveType": "video", "sources": { "thumbnail": "https://i.vimeocdn.com/video/849251489-a598e6a71e272140b6123da90abe52a12e4f95031121a75179e80991e46713fa-d_640x360.jpg", "metaThumbnail": "https://i.vimeocdn.com/video/849251489-a598e6a71e272140b6123da90abe52a12e4f95031121a75179e80991e46713fa-d_640x360.jpg", "mp4": "https://cdn.pixabay.com/vimeo/386628887/nature-31377.mp4?width=1280&hash=ce9e381c139be0f8e9f35c3a155759ccac44544b", "embed": "https://player.vimeo.com/video/386628887" }, "nsfw": false, "isAiGenerated": false, "uploadDate": "2023-12-16T11:46:54.752211", "href": "/videos/nature-waves-ocean-sea-rock-31377/", "alt": "Nature, Waves, Ocean, Sea, Rock", "title": null, "description": "Nature, Waves, Ocean, Sea, Rock, Live Wallpaper, Earth Day", "name": "Nature, Waves, Ocean, Sea", "tagLinks": "<a href=\"/videos/search/nature/\">nature</a> <a href=\"/videos/search/waves/\">waves</a> <a href=\"/videos/search/ocean/\">ocean</a> <a href=\"/videos/search/sea/\">sea</a>", "likeCount": 2861, "likeHref": "/accounts/like/video/31377/", "commentCount": 922, "commentHref": "/videos/nature-waves-ocean-sea-rock-31377/#comments", "contentIdCertificateUrl": null, "attributionHtml": "Video by <a href=\"https://pixabay.com/users/spacex55-14954769/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=31377\">spaceX55</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=31377\">Pixabay</a>", "vector": false, "isEditorsChoice": true, "isLowQuality": false, "qualityStatus": 5, "user": { "id": 14954769, "username": "spaceX55", "firstName": "", "lastName": "", "avatarSrc": "https://cdn.pixabay.com/user/2020/01/18/09-52-36-876_96x96.jpg", "profileUrl": "/users/spacex55-14954769/", "socialLinks": [], "donation": { "paypal": "https://www.paypal.me/spacex135", "method": 1 }, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "viewCount": 1082794, "downloadCount": 570756 }, { "id": 22183, "width": 1920, "height": 1080, "duration": 31, "mediaType": "video", "mediaSubType": null, "mediaDescriptiveType": "video", "sources": { "thumbnail": "https://i.vimeocdn.com/video/1437229709-414a163afb8eef1596ba38731cd1179d75d434947d8f4477f6ebce2570fba2e2-d_640x360.jpg", "metaThumbnail": "https://i.vimeocdn.com/video/1437229709-414a163afb8eef1596ba38731cd1179d75d434947d8f4477f6ebce2570fba2e2-d_640x360.jpg", "mp4": "https://cdn.pixabay.com/vimeo/712840599/waves-22183.mp4?width=640&hash=4a88c69e628b0551c2c678327174ccb524c9d734", "embed": "https://player.vimeo.com/video/712840599" }, "nsfw": false, "isAiGenerated": false, "uploadDate": "2023-12-16T11:46:54.753277", "href": "/videos/waves-water-sea-ocean-landscape-22183/", "alt": "Waves, Water, Sea, Ocean, Landscape", "title": null, "description": "Waves, Water, Sea, Ocean, Landscape, Nature, Sunset, Coast", "name": "Waves, Water, Sea, Ocean", "tagLinks": "<a href=\"/videos/search/waves/\">waves</a> <a href=\"/videos/search/water/\">water</a> <a href=\"/videos/search/sea/\">sea</a> <a href=\"/videos/search/ocean/\">ocean</a>", "likeCount": 2602, "likeHref": "/accounts/like/video/22183/", "commentCount": 819, "commentHref": "/videos/waves-water-sea-ocean-landscape-22183/#comments", "contentIdCertificateUrl": null, "attributionHtml": "Video by <a href=\"https://pixabay.com/users/vartanmercadanti-11951133/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=22183\">VartanMercadanti</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=22183\">Pixabay</a>", "vector": false, "isEditorsChoice": true, "isLowQuality": false, "qualityStatus": 5, "user": { "id": 11951133, "username": "VartanMercadanti", "firstName": "", "lastName": "", "avatarSrc": "https://cdn.pixabay.com/user/2019/03/21/11-22-53-269_96x96.jpg", "profileUrl": "/users/vartanmercadanti-11951133/", "socialLinks": [], "donation": { "paypal": "mercadantivartan@gmail.com", "method": 2 }, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "viewCount": 857216, "downloadCount": 419977 }, { "id": 16160, "width": 1920, "height": 1080, "duration": 40, "mediaType": "video", "mediaSubType": null, "mediaDescriptiveType": "video", "sources": { "thumbnail": "https://i.vimeocdn.com/video/700476351-08f78faa2a541a0c58bdead506d8468801f683e7203317b0b51ec9668b99fec8-d_640x360.jpg", "metaThumbnail": "https://i.vimeocdn.com/video/700476351-08f78faa2a541a0c58bdead506d8468801f683e7203317b0b51ec9668b99fec8-d_640x360.jpg", "mp4": "https://cdn.pixabay.com/vimeo/269534741/storm-16160.mp4?width=640&hash=0a527fdf3574a57ce335e47bd1d8ad4b700c2a22", "embed": "https://player.vimeo.com/video/269534741" }, "nsfw": false, "isAiGenerated": false, "uploadDate": "2023-12-16T11:46:54.754366", "href": "/videos/storm-ocean-sky-rain-the-waves-16160/", "alt": "Storm, Ocean, Sky, Rain, The Waves, Wind", "title": null, "description": "Storm, Ocean, Sky, Rain, The Waves, Wind, Dark Clouds", "name": "Storm, Ocean, Sky, Rain", "tagLinks": "<a href=\"/videos/search/storm/\">storm</a> <a href=\"/videos/search/ocean/\">ocean</a> <a href=\"/videos/search/sky/\">sky</a> <a href=\"/videos/search/rain/\">rain</a>", "likeCount": 3040, "likeHref": "/accounts/like/video/16160/", "commentCount": 867, "commentHref": "/videos/storm-ocean-sky-rain-the-waves-16160/#comments", "contentIdCertificateUrl": null, "attributionHtml": "Video by <a href=\"https://pixabay.com/users/macb3t-8900437/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=16160\">Macb3t</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=16160\">Pixabay</a>", "vector": false, "isEditorsChoice": true, "isLowQuality": false, "qualityStatus": 5, "user": { "id": 8900437, "username": "Macb3t", "firstName": "", "lastName": "", "avatarSrc": "https://cdn.pixabay.com/user/2018/05/04/13-06-48-352_96x96.png", "profileUrl": "/users/macb3t-8900437/", "socialLinks": [], "donation": { "paypal": "kadetpirx@wp.pl", "method": 2 }, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "viewCount": 829290, "downloadCount": 395673 }], "hasMoreItems": true }, "mediaType": "video", "comments": [{ "id": 765323, "created": "2023-12-14T06:12:51.827536Z", "text": "Thank you so much for providing this beautiful video.\r\nI appreciate your generosity in sharing this for free. Keep up the amazing work!", "pinned": false, "markedAsSpam": false, "user": { "id": 40757112, "username": "u_tkilh326rn", "firstName": "", "lastName": "", "avatarSrc": "/static/img/profile_images/purple.svg", "profileUrl": "/users/u_tkilh326rn-40757112/", "socialLinks": [], "donation": null, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "isEditable": false }, { "id": 764634, "created": "2023-12-12T15:11:34.728871Z", "text": "Thanks", "pinned": false, "markedAsSpam": false, "user": { "id": 41218877, "username": "u_gnjn7k1tci", "firstName": "", "lastName": "", "avatarSrc": "/static/img/profile_images/purple.svg", "profileUrl": "/users/u_gnjn7k1tci-41218877/", "socialLinks": [], "donation": null, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "isEditable": false }, { "id": 764423, "created": "2023-12-11T21:27:39.935947Z", "text": "Thank you a lot", "pinned": false, "markedAsSpam": false, "user": { "id": 41207056, "username": "u_jswdwyjivu", "firstName": "", "lastName": "", "avatarSrc": "https://cdn.pixabay.com/user/2023/12/11/21-30-01-679_96x96.jpg", "profileUrl": "/users/u_jswdwyjivu-41207056/", "socialLinks": [], "donation": null, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "isEditable": false }, { "id": 764367, "created": "2023-12-11T16:52:32.913451Z", "text": "Thank you", "pinned": false, "markedAsSpam": false, "user": { "id": 41157385, "username": "CuteAsDucks", "firstName": "Manali", "lastName": "Bhosale", "avatarSrc": "https://cdn.pixabay.com/user/2023/12/09/04-40-06-307_96x96.jpg", "profileUrl": "/users/cuteasducks-41157385/", "socialLinks": [], "donation": null, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "isEditable": false }, { "id": 764120, "created": "2023-12-11T01:03:27.216984Z", "text": "Thanks", "pinned": false, "markedAsSpam": false, "user": { "id": 41107938, "username": "u_ocfmsg6k51", "firstName": "", "lastName": "", "avatarSrc": "/static/img/profile_images/teal.svg", "profileUrl": "/users/u_ocfmsg6k51-41107938/", "socialLinks": [], "donation": null, "followerCount": 0, "aboutMe": "", "isAvailableForHire": false }, "isEditable": false }], "showAds": true, "showCanvaRetouch": false, "canvaRetouchImageUrl": "", "canvaTemplateAds": null, "canvaTemplateAdsKeywords": null, "sponsoredVideos": [{ "id": "gm1407727602-458832541", "preview": "https://media.istockphoto.com/id/1407727602/video/under-water-sun-light-seamless-loop-background.mp4?b=1&s=mp4-640x640-is&k=20&c=9N79tvWNaSEq-ouCez0PSZqpNOiamUdbjiq2VXBMJ7Q=", "thumb": "https://media.istockphoto.com/id/1407727602/video/under-water-sun-light-seamless-loop-background.jpg?b=1&s=640x640&k=20&c=IKHRYJCE0O23IzPWxdjsNV0zy-Iefo7ubuy-PPAv0Ck=", "linkUrl": "https://www.istockphoto.com/video/under-water-sun-light-seamless-loop-background-gm1407727602-458832541?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave" }, { "id": "gm1307489102-397744914", "preview": "https://media.istockphoto.com/id/1307489102/video/slow-motion-top-view-of-sea-foamy-bewitchingly-splashing-waves.mp4?b=1&s=mp4-640x640-is&k=20&c=OB75xcBG7U0QSbMnHEsROEhlDo1-cjnJ4hFjWRUDxzg=", "thumb": "https://media.istockphoto.com/id/1307489102/video/slow-motion-top-view-of-sea-foamy-bewitchingly-splashing-waves.jpg?b=1&s=640x640&k=20&c=NMKr2tnV5yQb1KETAbt2hfauXwXZJ8KIHXPi45geJeg=", "linkUrl": "https://www.istockphoto.com/video/slow-motion-top-view-of-sea-foamy-bewitchingly-splashing-waves-gm1307489102-397744914?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave" }, { "id": "gm1415767301-464004541", "preview": "https://media.istockphoto.com/id/1415767301/video/sea-on-green-screen-chroma-key.mp4?b=1&s=mp4-640x640-is&k=20&c=17Vb43gS1FB46DNFeWIzkVa397ZFt78SIdJSjmG_kcs=", "thumb": "https://media.istockphoto.com/id/1415767301/video/sea-on-green-screen-chroma-key.jpg?b=1&s=640x640&k=20&c=iOzNtzjh2z70msx1ROMTzKh9q5T6z7kHLHuIx_F4CGw=", "linkUrl": "https://www.istockphoto.com/video/sea-on-green-screen-chroma-key-gm1415767301-464004541?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave" }, { "id": "gm1356214658-430445632", "preview": "https://media.istockphoto.com/id/1356214658/video/wave-rolls-and-breaks-ocean-wave-rolls-and-breaks-over-the-flat-reef-bottom-in-maldives.mp4?b=1&s=mp4-640x640-is&k=20&c=dpY7q_j2rm8hGw2FLw1K48zYvwuSNq1mAMbxJNXmlPQ=", "thumb": "https://media.istockphoto.com/id/1356214658/video/wave-rolls-and-breaks-ocean-wave-rolls-and-breaks-over-the-flat-reef-bottom-in-maldives.jpg?b=1&s=640x640&k=20&c=HXjPuFy4unMGYcOXbB0U-mwfBYjVv-GUSBfQZ3FbrhE=", "linkUrl": "https://www.istockphoto.com/video/wave-rolls-and-breaks-ocean-wave-rolls-and-breaks-over-the-flat-reef-bottom-in-gm1356214658-430445632?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave" }, { "id": "gm1154130110-313705317", "preview": "https://media.istockphoto.com/id/1154130110/video/forceful-barrel-wave-splashes-water-around-the-coast-of-tahiti.mp4?b=1&s=mp4-640x640-is&k=20&c=_sgdGn0OmN-o4OFB03XqK27N9qmdRAv7G88Wged8Lr0=", "thumb": "https://media.istockphoto.com/id/1154130110/video/forceful-barrel-wave-splashes-water-around-the-coast-of-tahiti.jpg?b=1&s=640x640&k=20&c=5bqrNxwX-fs9L1zQfL7GWQsQlPGbXdOYXZyrykVu-Xw=", "linkUrl": "https://www.istockphoto.com/video/forceful-barrel-wave-splashes-water-around-the-coast-of-tahiti-gm1154130110-313705317?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave" }, { "id": "gm1410230150-460502327", "preview": "https://media.istockphoto.com/id/1410230150/video/view-of-the-tropical-beach-top-view-of-the-pink-beach-at-sunset.mp4?b=1&s=mp4-640x640-is&k=20&c=IpwlNJkDZ-XlfH2HqFp6By2NtvNvPkeaI1VBlFyacDU=", "thumb": "https://media.istockphoto.com/id/1410230150/video/view-of-the-tropical-beach-top-view-of-the-pink-beach-at-sunset.jpg?b=1&s=640x640&k=20&c=kf5rHwJI1zsiVsqYcyczPhyH6tvSnvlebtL6BBSkcEM=", "linkUrl": "https://www.istockphoto.com/video/view-of-the-tropical-beach-top-view-of-the-pink-beach-at-sunset-gm1410230150-460502327?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave" }, { "id": "gm1052583810-281226598", "preview": "https://media.istockphoto.com/id/1052583810/video/slow-motion-over-disturbed-ocean-water-surface-loopable-impressive-background-for-movie.mp4?b=1&s=mp4-640x640-is&k=20&c=_1OXazuPy1bhup5ZQ9YSbJbcvVHLsiV2ZLMfFeyJ6J4=", "thumb": "https://media.istockphoto.com/id/1052583810/video/slow-motion-over-disturbed-ocean-water-surface-loopable-impressive-background-for-movie.jpg?b=1&s=640x640&k=20&c=EhsL_PIpA2Gd1J-uQ6KH9CbfMDeEHChgPwOd9smzuF8=", "linkUrl": "https://www.istockphoto.com/video/slow-motion-over-disturbed-ocean-water-surface-loopable-impressive-background-for-gm1052583810-281226598?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave" }, { "id": "gm1176764896-328236020", "preview": "https://media.istockphoto.com/id/1176764896/video/waves-of-water-of-the-river-and-the-sea-meet-each-other-during-high-tide-and-low-tide.mp4?b=1&s=mp4-640x640-is&k=20&c=WmP1SBQNkMhz-COBowc2Pb4IQBkKR2pWuxLPxBLhklA=", "thumb": "https://media.istockphoto.com/id/1176764896/video/waves-of-water-of-the-river-and-the-sea-meet-each-other-during-high-tide-and-low-tide.jpg?b=1&s=640x640&k=20&c=c7cKqL6dtOLTTPyKAEFBGmD3YPmBgg_rSVhWs1IgE_E=", "linkUrl": "https://www.istockphoto.com/video/waves-of-water-of-the-river-and-the-sea-meet-each-other-during-high-tide-and-low-tide-gm1176764896-328236020?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave" }], "sponsorLinkHref": "https://www.istockphoto.com/footage?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave", "sponsorViewMoreHref": "https://www.istockphoto.com/en/search/2/film?mediatype=video&phrase=sea+wave&utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave", "useRedesignedMDP": true, "gettyBrandAdVariant": null } };
+        window.__BOOTSTRAP__ = {
+            "request": {
+                "location": {
+                    "canonicalHref": "https://pixabay.com/videos/sea-wave-golden-sand-sunrise-4006/",
+                    "host": "https://pixabay.com",
+                    "protocol": "https",
+                    "pathname": "/videos/sea-wave-golden-sand-sunrise-4006/",
+                    "path": "/videos/sea-wave-golden-sand-sunrise-4006/",
+                    "href": "https://pixabay.com/videos/sea-wave-golden-sand-sunrise-4006/"
+                },
+                "bootstrapUrl": "",
+                "userAgent": {
+                    "isMobile": false,
+                    "isTablet": false,
+                    "isBot": false,
+                    "isApp": false
+                },
+                "language": "en",
+                "languages": [{
+                    "code": "cs",
+                    "name": "Čeština",
+                    "href": "https://pixabay.com/cs/videos/mo%C5%99e-m%C3%A1vat-zlat%C3%BD-p%C3%ADsek-4006/"
+                }, {
+                    "code": "da",
+                    "name": "Dansk",
+                    "href": "https://pixabay.com/da/videos/hav-b%C3%B8lge-gylden-sand-solopgang-4006/"
+                }, {
+                    "code": "de",
+                    "name": "Deutsch",
+                    "href": "https://pixabay.com/de/videos/meer-welle-golden-sand-4006/"
+                }, {
+                    "code": "en",
+                    "name": "English",
+                    "href": "https://pixabay.com/videos/sea-wave-golden-sand-sunrise-4006/"
+                }, {
+                    "code": "es",
+                    "name": "Español",
+                    "href": "https://pixabay.com/es/videos/mar-onda-dorado-arena-amanecer-4006/"
+                }, {
+                    "code": "fr",
+                    "name": "Français",
+                    "href": "https://pixabay.com/fr/videos/mer-vague-dor-sable-4006/"
+                }, {
+                    "code": "id",
+                    "name": "Indonesia",
+                    "href": "https://pixabay.com/id/videos/laut-melambai-keemasan-pasir-4006/"
+                }, {
+                    "code": "it",
+                    "name": "Italiano",
+                    "href": "https://pixabay.com/it/videos/mare-onda-doro-sabbia-alba-4006/"
+                }, {
+                    "code": "hu",
+                    "name": "Magyar",
+                    "href": "https://pixabay.com/hu/videos/tenger-hull%C3%A1m-aranys%C3%A1rga-homok-4006/"
+                }, {
+                    "code": "nl",
+                    "name": "Nederlands",
+                    "href": "https://pixabay.com/nl/videos/zee-golf-gouden-zand-zonsopkomst-4006/"
+                }, {
+                    "code": "no",
+                    "name": "Norsk",
+                    "href": "https://pixabay.com/no/videos/hav-b%C3%B8lge-gylden-sand-soloppgang-4006/"
+                }, {
+                    "code": "pl",
+                    "name": "Polski",
+                    "href": "https://pixabay.com/pl/videos/morze-fala-z%C5%82oty-piasek-4006/"
+                }, {
+                    "code": "pt",
+                    "name": "Português",
+                    "href": "https://pixabay.com/pt/videos/mar-aceno-dourado-areia-4006/"
+                }, {
+                    "code": "ro",
+                    "name": "Română",
+                    "href": "https://pixabay.com/ro/videos/mare-val-de-aur-nisip-r%C4%83s%C4%83rit-4006/"
+                }, {
+                    "code": "sk",
+                    "name": "Slovenčina",
+                    "href": "https://pixabay.com/sk/videos/more-m%C3%A1va%C5%A5-zlat%C3%BD-piesok-svitanie-4006/"
+                }, {
+                    "code": "fi",
+                    "name": "Suomi",
+                    "href": "https://pixabay.com/fi/videos/meri-aalto-kultainen-hiekka-4006/"
+                }, {
+                    "code": "sv",
+                    "name": "Svenska",
+                    "href": "https://pixabay.com/sv/videos/hav-vinka-gyllene-sand-soluppg%C3%A5ng-4006/"
+                }, {
+                    "code": "tr",
+                    "name": "Türkçe",
+                    "href": "https://pixabay.com/tr/videos/deniz-dalga-alt%C4%B1n-kum-g%C3%BCndo%C4%9Fumu-4006/"
+                }, {
+                    "code": "vi",
+                    "name": "Việt",
+                    "href": "https://pixabay.com/vi/videos/bi%E1%BB%83n-l%C3%A0n-s%C3%B3ng-v%C3%A0ng-c%C3%A1t-b%C3%ACnh-minh-4006/"
+                }, {
+                    "code": "th",
+                    "name": "ไทย",
+                    "href": "https://pixabay.com/th/videos/%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5-%E0%B8%84%E0%B8%A5%E0%B8%99-%E0%B8%97%E0%B8%AD%E0%B8%87-%E0%B8%97%E0%B8%A3%E0%B8%B2%E0%B8%A2-%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%95%E0%B8%A2%E0%B8%82%E0%B8%99-4006/"
+                }, {
+                    "code": "bg",
+                    "name": "Български",
+                    "href": "https://pixabay.com/bg/videos/%D0%BC%D0%BE%D1%80%D0%B5-%D0%B2%D1%8A%D0%BB%D0%BD%D0%B0-%D0%B7%D0%BB%D0%B0%D1%82%D0%B5%D0%BD-%D0%BF%D1%8F%D1%81%D1%8A%D0%BA-%D0%B8%D0%B7%D0%B3%D1%80%D0%B5%D0%B2-4006/"
+                }, {
+                    "code": "ru",
+                    "name": "Русский",
+                    "href": "https://pixabay.com/ru/videos/%D0%BC%D0%BE%D1%80%D0%B5-%D0%B2%D0%BE%D0%BB%D0%BD%D0%B0-%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9-%D0%BF%D0%B5%D1%81%D0%BE%D0%BA-4006/"
+                }, {
+                    "code": "el",
+                    "name": "Ελληνική",
+                    "href": "https://pixabay.com/el/videos/%CE%B8%CE%AC%CE%BB%CE%B1%CF%83%CF%83%CE%B1-%CE%BA%CF%8D%CE%BC%CE%B1-%CF%87%CF%81%CF%85%CF%83%CE%B1%CF%86%CE%AD%CE%BD%CE%B9%CE%BF%CF%82-%CE%AC%CE%BC%CE%BC%CE%BF%CF%82-4006/"
+                }, {
+                    "code": "ja",
+                    "name": "日本語",
+                    "href": "https://pixabay.com/ja/videos/%E6%B5%B7-%E6%B3%A2-%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3-%E7%A0%82-4006/"
+                }, {
+                    "code": "ko",
+                    "name": "한국어",
+                    "href": "https://pixabay.com/ko/videos/%EB%B0%94%EB%8B%A4-%ED%8C%8C%EB%8F%84-%ED%99%A9%EA%B8%88-%EB%AA%A8%EB%9E%98-4006/"
+                }, {
+                    "code": "zh",
+                    "name": "简体中文",
+                    "href": "https://pixabay.com/zh/videos/sea-wave-golden-sand-sunrise-4006/"
+                }],
+                "languageUrlPrefix": "",
+                "noindex": false,
+                "nofollow": false,
+                "seo": {
+                    "metaTitle": "Sea, Wave, Golden. Free Stock Video",
+                    "metaDescription": "Download this free video of Sea Wave Golden from Pixabay's vast library of royalty-free stock images, videos and music.",
+                    "h1Text": "Sea wave golden free stock video. Free for use & download.",
+                    "h2Text": "",
+                    "relatedKeywords": []
+                },
+                "ogTags": {
+                    "title": "Sea, Wave, Golden. Free Stock Video",
+                    "description": "Download this free video of Sea Wave Golden from Pixabay's vast library of royalty-free stock images, videos and music.",
+                    "image": "https://i.vimeocdn.com/video/583481279-cb986541e5371d720aa372625619372d35070e727d7972c7a5e111abb3fc123c-d_640x360.jpg"
+                },
+                "i18nStrings": {},
+                "gtmNoscriptSnippetParams": "id=GTM-5CF9ZN&gtm_auth=EzJCsJwDfVlqG8d1K6KKOg&gtm_preview=env-1&gtm_cookies_win=x",
+                "gtmScriptSnippet": "<scr" +
+                    "ipt>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=EzJCsJwDfVlqG8d1K6KKOg&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5CF9ZN');</scr" +
+                    "ipt>",
+                "snowplowSnippet": "<scr" +
+                    "ipt type='text/javascript' async=1>;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//cdn.jsdelivr.net/npm/@snowplow/javascript-tracker@3.14.0/dist/sp.js','snowplow'));window.snowplow('newTracker', 'sp', 'webhooks.fivetran.com/snowplow/5965a13a-0208-4b09-9f16-449198306fea', {    appId: 'frontend', withCredentials: false,     cookieSameSite: 'Lax',    cookieSecure: true,    platform: 'web',    post: true});window.snowplow('newTracker', 'sp2', 'api.canva.com/_spi/ae/snowplow/d5a6cd30-7d92-477e-9ea9-2a10fce46e2c', {    appId: 'frontend', withCredentials: false,     cookieSameSite: 'Lax',    cookieSecure: true,    platform: 'web',    post: true});window.snowplow('setUserIdFromCookie', 'user_id');window.snowplow('addPlugin', 'https://cdn.jsdelivr.net/npm/@snowplow/browser-plugin-timezone@3.14.0/dist/index.umd.min.js', ['snowplowTimezone', 'TimezonePlugin']);</scr" +
+                    "ipt>",
+                "dataLayer": [{
+                    "qForAds": "video:en:sea wave:VNM",
+                    "tags": "sea, wave, golden, sand, sunrise, ocean, water, surf, beach, nature, summer, tropical, splash, ocean wave, clean, clear, day, spray, shore, motion, wet, foam, reflection",
+                    "searchQuery": "",
+                    "locale": "en",
+                    "country": "vn",
+                    "hasDescription": "0",
+                    "canvaBannerVariant": null
+                }],
+                "analyticsContext": {
+                    "page": "video_show",
+                    "page_locale": "en",
+                    "logged_in": true,
+                    "media_id": "4006",
+                    "media_type": "video",
+                    "media_tags": "sea, wave, golden, sand, sunrise, ocean, water, surf, beach, nature, summer, tropical, splash, ocean wave, clean, clear, day, spray, shore, motion, wet, foam, reflection",
+                    "file_size": 155391307,
+                    "file_extension": "mp4",
+                    "q_for_ads": "video:en:sea wave:VNM",
+                    "feature_flags": "{\"flags\":[129,179,214,130,123,82,167,144,114,161,173,85,155,125,165],\"switches\":[89,67,15,42,62,81,63],\"samples\":[12]}"
+                },
+                "user": {
+                    "id": 41287407,
+                    "username": "u_b000xohuim",
+                    "firstName": "",
+                    "lastName": "",
+                    "email": "devsp2023@gmail.com",
+                    "isActive": true,
+                    "isAnonymous": false,
+                    "isStaff": false,
+                    "isSuperuser": false,
+                    "isReliable": false,
+                    "isMediaEditor": false,
+                    "permissions": [],
+                    "lastLogin": "2023-12-16 03:05:11.136242",
+                    "uploadsDisabled": false,
+                    "editTagsDisabled": false,
+                    "messageCount": 0,
+                    "profileImage": "/static/img/profile_images/purple.svg",
+                    "profileImage2x": "/static/img/profile_images/purple.svg",
+                    "profileUrl": "/users/u_b000xohuim-41287407/",
+                    "unreadNotificationsCount": 0,
+                    "showRecaptcha": true,
+                    "canReportSpamComments": false,
+                    "permittedUploads": 7
+                },
+                "adminTools": [],
+                "flags": {},
+                "serviceCredentials": {
+                    "googleClientId": "575185734362.apps.googleusercontent.com",
+                    "facebookAppId": "114593902037957",
+                    "recaptchaSiteKey": "6LeyhLIaAAAAAI8XfF3RoG62z0L0RLUrgGVb1p_z",
+                    "wechatAppId": "wx51b436351abaf7b7",
+                    "oneTrustSdkUrl": "https://cdn-au.onetrust.com/scripttemplates/otSDKStub.js",
+                    "oneTrustSdkDomainScript": "52f0ce5e-0c2d-48a6-8e40-e978c5058a96"
+                },
+                "security": {
+                    "timestamp": "1702727214",
+                    "hash": "e0fa7833bee1b721e2340ea9cace3b74b1424dca",
+                    "signature": "ssr:1rET8A:Ian5weF1WsWMUH-akTShPNzjpTzW9P9KjWMRuKWMKbE"
+                },
+                "auth": {
+                    "loginUrlTemplate": "/accounts/login/",
+                    "registerUrlTemplate": "/accounts/register/",
+                    "socialAuthUrlTemplate": "/accounts/auth/{provider}/",
+                    "wechatAuthIframeUrlTemplate": "/accounts/auth/wechat/iframe/",
+                    "resendConfirmEmailUrlTemplate": "/accounts/register/resend_confirmation/?pk={userId}",
+                    "resetPasswordUrlTemplate": "/accounts/reset_password/"
+                },
+                "featureFlags": {
+                    "useWechatAuth": false,
+                    "useAutocompleteSuggestions": true,
+                    "useCloudflareSuggestions": true,
+                    "showNewGettyCopy": false,
+                    "gettyTrackClicks": true,
+                    "useTransparentStatus": true,
+                    "reactAttributionAds": true,
+                    "safesearchForAudio": true,
+                    "useMediaAdminMenu": false,
+                    "displayAvailableForHire": true,
+                    "tag_ai_generated_media": true,
+                    "useVideoOrientationFilter": true,
+                    "useAwardsTab": true,
+                    "useMediaIndexInfiniteScroll": true,
+                    "showRadioPromoOnMusicIndex": true,
+                    "smallerMediaOnMdp": true,
+                    "gettyAdsFirstOnMobileSrp": true,
+                    "aiFlagsOnWebsite": true,
+                    "showMdpGettyBrandAd": false,
+                    "showPostDownloadSurvey": false,
+                    "showMergerNotice": false,
+                    "useNewLazyImg": false,
+                    "spellCheckMediaSearch": false
+                },
+                "collectVitalsUrl": "/collect/web-vitals/",
+                "collectVitalsSampleRate": 1,
+                "sentrySampleRate": 0,
+                "mediaCount": 4.5,
+                "likedMedia": [],
+                "collectedMedia": [],
+                "followedUsers": [],
+                "safesearch": "",
+                "hideAiGenerated": false
+            },
+            "page": {
+                "pageType": "media_show",
+                "mediaItem": {
+                    "id": 4006,
+                    "width": 3840,
+                    "height": 2160,
+                    "duration": 40,
+                    "mediaType": "video",
+                    "mediaSubType": null,
+                    "mediaDescriptiveType": "video",
+                    "sources": {
+                        "thumbnail": "https://i.vimeocdn.com/video/583481279-cb986541e5371d720aa372625619372d35070e727d7972c7a5e111abb3fc123c-d_640x360.jpg",
+                        "metaThumbnail": "https://i.vimeocdn.com/video/583481279-cb986541e5371d720aa372625619372d35070e727d7972c7a5e111abb3fc123c-d_640x360.jpg",
+                        "mp4": "https://cdn.pixabay.com/vimeo/176282263/sea-4006.mp4?width=1920&hash=f252f0fe3237a232bf828a00fc2a49596fa1ca35",
+                        "mp4_tiny": "https://cdn.pixabay.com/vimeo/176282263/sea-4006.mp4?width=640&hash=443d241d5fc3f7067553999f93dbe9a9b0034954"
+                    },
+                    "nsfw": false,
+                    "isAiGenerated": false,
+                    "uploadDate": "2016-07-26T07:17:11.981558",
+                    "href": "/videos/sea-wave-golden-sand-sunrise-4006/",
+                    "alt": "Sea, Wave, Golden, Sand, Sunrise, Ocean",
+                    "title": null,
+                    "description": "",
+                    "name": "Sea, Wave, Golden, Sand",
+                    "tagLinks": "<a href=\"/videos/search/sea/\">sea</a> <a href=\"/videos/search/wave/\">wave</a> <a href=\"/videos/search/golden/\">golden</a> <a href=\"/videos/search/sand/\">sand</a>",
+                    "likeCount": 5236,
+                    "likeHref": "/accounts/like/video/4006/",
+                    "commentCount": 1939,
+                    "commentHref": "/videos/sea-wave-golden-sand-sunrise-4006/#comments",
+                    "contentIdCertificateUrl": null,
+                    "attributionHtml": "Video by <a href=\"https://pixabay.com/users/outlinez-1024927/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=4006\">Dimitar Tzankov</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=4006\">Pixabay</a>",
+                    "vector": false,
+                    "isEditorsChoice": true,
+                    "isLowQuality": false,
+                    "qualityStatus": 5,
+                    "user": {
+                        "id": 1024927,
+                        "username": "outlinez",
+                        "firstName": "Dimitar",
+                        "lastName": "Tzankov",
+                        "avatarSrc": "https://cdn.pixabay.com/user/2017/10/03/16-01-13-529_96x96.png",
+                        "profileUrl": "/users/outlinez-1024927/",
+                        "socialLinks": [{
+                            "url": "https://www.pond5.com/artist/framelinez",
+                            "type": 5
+                        }],
+                        "donation": {
+                            "paypal": "myfreshes@gmail.com",
+                            "method": 2
+                        },
+                        "followerCount": 2024,
+                        "aboutMe": "Web designer and hobbyist photographer",
+                        "isAvailableForHire": false,
+                        "likeCount": 5899,
+                        "viewCount": 2711687,
+                        "downloadCount": 1192388,
+                        "editorsChoiceCount": 1,
+                        "commentsEnabled": true
+                    },
+                    "viewCount": 2618635,
+                    "downloadCount": 1144830,
+                    "collectionCount": 5728,
+                    "publishedDate": "2016-07-26",
+                    "tags": ["sea", "wave", "golden", "sand", "sunrise", "ocean", "water", "surf", "beach", "nature",
+                        "summer", "tropical", "splash", "ocean wave", "clean", "clear", "day", "spray", "shore",
+                        "motion", "wet", "foam", "reflection"
+                    ],
+                    "fileFormat": "MP4",
+                    "downloadSources": [{
+                        "label": "640×360",
+                        "format": "MP4",
+                        "size": "2.5 MB",
+                        "fileName": "video-4006_tiny.mp4"
+                    }, {
+                        "label": "960×540",
+                        "format": "MP4",
+                        "size": "7.4 MB",
+                        "fileName": "video-4006_small.mp4"
+                    }, {
+                        "label": "1280×720",
+                        "format": "MP4",
+                        "size": "12.5 MB",
+                        "fileName": "video-4006_medium.mp4"
+                    }, {
+                        "label": "1920×1080",
+                        "format": "MP4",
+                        "size": "32.5 MB",
+                        "fileName": "video-4006_large.mp4"
+                    }, {
+                        "label": "3840×2160",
+                        "format": "MP4",
+                        "size": "155.4 MB",
+                        "fileName": "video-4006_source.mp4"
+                    }],
+                    "canvaId": null,
+                    "statusName": null,
+                    "lang": null,
+                    "translated": null,
+                    "unreviewedTags": null,
+                    "vimeoId": "176282263",
+                    "isVimeoReady": true,
+                    "fps": null,
+                    "genres": null,
+                    "movements": null,
+                    "moods": null,
+                    "themes": null
+                },
+                "relatedMedia": {
+                    "items": [{
+                        "id": 24216,
+                        "width": 1920,
+                        "height": 1080,
+                        "duration": 31,
+                        "mediaType": "video",
+                        "mediaSubType": null,
+                        "mediaDescriptiveType": "video",
+                        "sources": {
+                            "thumbnail": "https://i.vimeocdn.com/video/789067813-97eab0d7a31c715fe2078922689de7234e85dd5153349d4df9e58595dbe8df83-d_640x360.jpg",
+                            "metaThumbnail": "https://i.vimeocdn.com/video/789067813-97eab0d7a31c715fe2078922689de7234e85dd5153349d4df9e58595dbe8df83-d_640x360.jpg",
+                            "mp4": "https://cdn.pixabay.com/vimeo/340670744/sea-24216.mp4?width=640&hash=f5d8caac458392ac811be5aaf088a820fbcb1fdb",
+                            "embed": "https://player.vimeo.com/video/340670744"
+                        },
+                        "nsfw": false,
+                        "isAiGenerated": false,
+                        "uploadDate": "2023-12-16T11:46:54.749878",
+                        "href": "/videos/sea-ocean-wave-beach-blue-nature-24216/",
+                        "alt": "Sea, Ocean, Wave, Beach, Blue, Nature",
+                        "title": null,
+                        "description": "Sea, Ocean, Wave, Beach, Blue, Nature, Pacific, Sand, Water",
+                        "name": "Sea, Ocean, Wave, Beach, Blue",
+                        "tagLinks": "<a href=\"/videos/search/sea/\">sea</a> <a href=\"/videos/search/ocean/\">ocean</a> <a href=\"/videos/search/wave/\">wave</a> <a href=\"/videos/search/beach/\">beach</a>",
+                        "likeCount": 3115,
+                        "likeHref": "/accounts/like/video/24216/",
+                        "commentCount": 1002,
+                        "commentHref": "/videos/sea-ocean-wave-beach-blue-nature-24216/#comments",
+                        "contentIdCertificateUrl": null,
+                        "attributionHtml": "Video by <a href=\"https://pixabay.com/users/javlemus-12694742/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=24216\">javlemus</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=24216\">Pixabay</a>",
+                        "vector": false,
+                        "isEditorsChoice": true,
+                        "isLowQuality": false,
+                        "qualityStatus": 5,
+                        "user": {
+                            "id": 12694742,
+                            "username": "javlemus",
+                            "firstName": "",
+                            "lastName": "",
+                            "avatarSrc": "https://cdn.pixabay.com/user/2020/06/11/23-30-04-124_96x96.jpg",
+                            "profileUrl": "/users/javlemus-12694742/",
+                            "socialLinks": [],
+                            "donation": {
+                                "paypal": "VMRKLYVL2DEYN",
+                                "method": 2
+                            },
+                            "followerCount": 0,
+                            "aboutMe": "",
+                            "isAvailableForHire": false
+                        },
+                        "viewCount": 1023075,
+                        "downloadCount": 500065
+                    }, {
+                        "id": 135658,
+                        "width": 3840,
+                        "height": 2160,
+                        "duration": 9,
+                        "mediaType": "video",
+                        "mediaSubType": null,
+                        "mediaDescriptiveType": "video",
+                        "sources": {
+                            "thumbnail": "https://i.vimeocdn.com/video/1534871554-04395a9a937e020640cb9cf101527b1d647bfa4703fe35d55e9ccfc25a086f28-d_640x360.jpg",
+                            "metaThumbnail": "https://i.vimeocdn.com/video/1534871554-04395a9a937e020640cb9cf101527b1d647bfa4703fe35d55e9ccfc25a086f28-d_640x360.jpg",
+                            "mp4": "https://cdn.pixabay.com/vimeo/764361528/ocean-135658.mp4?width=1280&hash=b159d919c87755ce37418ce06517384443e33297",
+                            "embed": "https://player.vimeo.com/video/764361528"
+                        },
+                        "nsfw": false,
+                        "isAiGenerated": false,
+                        "uploadDate": "2023-12-16T11:46:54.751086",
+                        "href": "/videos/ocean-beach-sunset-sea-atmosphere-135658/",
+                        "alt": "Sunset and its reflection on the sea",
+                        "title": null,
+                        "description": "Ocean, Beach, Sunset, Sea, Atmosphere, Relaxing, Relaxation",
+                        "name": "Ocean, Beach, Sunset, Sea",
+                        "tagLinks": "<a href=\"/videos/search/ocean/\">ocean</a> <a href=\"/videos/search/beach/\">beach</a> <a href=\"/videos/search/sunset/\">sunset</a> <a href=\"/videos/search/sea/\">sea</a>",
+                        "likeCount": 1781,
+                        "likeHref": "/accounts/like/video/135658/",
+                        "commentCount": 315,
+                        "commentHref": "/videos/ocean-beach-sunset-sea-atmosphere-135658/#comments",
+                        "contentIdCertificateUrl": null,
+                        "attributionHtml": "Video by <a href=\"https://pixabay.com/users/mohammedksm-30639570/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=135658\">mohammedksm</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=135658\">Pixabay</a>",
+                        "vector": false,
+                        "isEditorsChoice": true,
+                        "isLowQuality": false,
+                        "qualityStatus": 5,
+                        "user": {
+                            "id": 30639570,
+                            "username": "mohammedksm",
+                            "firstName": "",
+                            "lastName": "",
+                            "avatarSrc": "https://cdn.pixabay.com/user/2022/10/20/18-00-07-973_96x96.jpg",
+                            "profileUrl": "/users/mohammedksm-30639570/",
+                            "socialLinks": [],
+                            "donation": {
+                                "paypal": "https://www.paypal.me/mohammedelkasmi19",
+                                "method": 1
+                            },
+                            "followerCount": 0,
+                            "aboutMe": "",
+                            "isAvailableForHire": false
+                        },
+                        "viewCount": 392418,
+                        "downloadCount": 164172
+                    }, {
+                        "id": 31377,
+                        "width": 3840,
+                        "height": 2160,
+                        "duration": 29,
+                        "mediaType": "video",
+                        "mediaSubType": null,
+                        "mediaDescriptiveType": "video",
+                        "sources": {
+                            "thumbnail": "https://i.vimeocdn.com/video/849251489-a598e6a71e272140b6123da90abe52a12e4f95031121a75179e80991e46713fa-d_640x360.jpg",
+                            "metaThumbnail": "https://i.vimeocdn.com/video/849251489-a598e6a71e272140b6123da90abe52a12e4f95031121a75179e80991e46713fa-d_640x360.jpg",
+                            "mp4": "https://cdn.pixabay.com/vimeo/386628887/nature-31377.mp4?width=1280&hash=ce9e381c139be0f8e9f35c3a155759ccac44544b",
+                            "embed": "https://player.vimeo.com/video/386628887"
+                        },
+                        "nsfw": false,
+                        "isAiGenerated": false,
+                        "uploadDate": "2023-12-16T11:46:54.752211",
+                        "href": "/videos/nature-waves-ocean-sea-rock-31377/",
+                        "alt": "Nature, Waves, Ocean, Sea, Rock",
+                        "title": null,
+                        "description": "Nature, Waves, Ocean, Sea, Rock, Live Wallpaper, Earth Day",
+                        "name": "Nature, Waves, Ocean, Sea",
+                        "tagLinks": "<a href=\"/videos/search/nature/\">nature</a> <a href=\"/videos/search/waves/\">waves</a> <a href=\"/videos/search/ocean/\">ocean</a> <a href=\"/videos/search/sea/\">sea</a>",
+                        "likeCount": 2861,
+                        "likeHref": "/accounts/like/video/31377/",
+                        "commentCount": 922,
+                        "commentHref": "/videos/nature-waves-ocean-sea-rock-31377/#comments",
+                        "contentIdCertificateUrl": null,
+                        "attributionHtml": "Video by <a href=\"https://pixabay.com/users/spacex55-14954769/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=31377\">spaceX55</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=31377\">Pixabay</a>",
+                        "vector": false,
+                        "isEditorsChoice": true,
+                        "isLowQuality": false,
+                        "qualityStatus": 5,
+                        "user": {
+                            "id": 14954769,
+                            "username": "spaceX55",
+                            "firstName": "",
+                            "lastName": "",
+                            "avatarSrc": "https://cdn.pixabay.com/user/2020/01/18/09-52-36-876_96x96.jpg",
+                            "profileUrl": "/users/spacex55-14954769/",
+                            "socialLinks": [],
+                            "donation": {
+                                "paypal": "https://www.paypal.me/spacex135",
+                                "method": 1
+                            },
+                            "followerCount": 0,
+                            "aboutMe": "",
+                            "isAvailableForHire": false
+                        },
+                        "viewCount": 1082794,
+                        "downloadCount": 570756
+                    }, {
+                        "id": 22183,
+                        "width": 1920,
+                        "height": 1080,
+                        "duration": 31,
+                        "mediaType": "video",
+                        "mediaSubType": null,
+                        "mediaDescriptiveType": "video",
+                        "sources": {
+                            "thumbnail": "https://i.vimeocdn.com/video/1437229709-414a163afb8eef1596ba38731cd1179d75d434947d8f4477f6ebce2570fba2e2-d_640x360.jpg",
+                            "metaThumbnail": "https://i.vimeocdn.com/video/1437229709-414a163afb8eef1596ba38731cd1179d75d434947d8f4477f6ebce2570fba2e2-d_640x360.jpg",
+                            "mp4": "https://cdn.pixabay.com/vimeo/712840599/waves-22183.mp4?width=640&hash=4a88c69e628b0551c2c678327174ccb524c9d734",
+                            "embed": "https://player.vimeo.com/video/712840599"
+                        },
+                        "nsfw": false,
+                        "isAiGenerated": false,
+                        "uploadDate": "2023-12-16T11:46:54.753277",
+                        "href": "/videos/waves-water-sea-ocean-landscape-22183/",
+                        "alt": "Waves, Water, Sea, Ocean, Landscape",
+                        "title": null,
+                        "description": "Waves, Water, Sea, Ocean, Landscape, Nature, Sunset, Coast",
+                        "name": "Waves, Water, Sea, Ocean",
+                        "tagLinks": "<a href=\"/videos/search/waves/\">waves</a> <a href=\"/videos/search/water/\">water</a> <a href=\"/videos/search/sea/\">sea</a> <a href=\"/videos/search/ocean/\">ocean</a>",
+                        "likeCount": 2602,
+                        "likeHref": "/accounts/like/video/22183/",
+                        "commentCount": 819,
+                        "commentHref": "/videos/waves-water-sea-ocean-landscape-22183/#comments",
+                        "contentIdCertificateUrl": null,
+                        "attributionHtml": "Video by <a href=\"https://pixabay.com/users/vartanmercadanti-11951133/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=22183\">VartanMercadanti</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=22183\">Pixabay</a>",
+                        "vector": false,
+                        "isEditorsChoice": true,
+                        "isLowQuality": false,
+                        "qualityStatus": 5,
+                        "user": {
+                            "id": 11951133,
+                            "username": "VartanMercadanti",
+                            "firstName": "",
+                            "lastName": "",
+                            "avatarSrc": "https://cdn.pixabay.com/user/2019/03/21/11-22-53-269_96x96.jpg",
+                            "profileUrl": "/users/vartanmercadanti-11951133/",
+                            "socialLinks": [],
+                            "donation": {
+                                "paypal": "mercadantivartan@gmail.com",
+                                "method": 2
+                            },
+                            "followerCount": 0,
+                            "aboutMe": "",
+                            "isAvailableForHire": false
+                        },
+                        "viewCount": 857216,
+                        "downloadCount": 419977
+                    }, {
+                        "id": 16160,
+                        "width": 1920,
+                        "height": 1080,
+                        "duration": 40,
+                        "mediaType": "video",
+                        "mediaSubType": null,
+                        "mediaDescriptiveType": "video",
+                        "sources": {
+                            "thumbnail": "https://i.vimeocdn.com/video/700476351-08f78faa2a541a0c58bdead506d8468801f683e7203317b0b51ec9668b99fec8-d_640x360.jpg",
+                            "metaThumbnail": "https://i.vimeocdn.com/video/700476351-08f78faa2a541a0c58bdead506d8468801f683e7203317b0b51ec9668b99fec8-d_640x360.jpg",
+                            "mp4": "https://cdn.pixabay.com/vimeo/269534741/storm-16160.mp4?width=640&hash=0a527fdf3574a57ce335e47bd1d8ad4b700c2a22",
+                            "embed": "https://player.vimeo.com/video/269534741"
+                        },
+                        "nsfw": false,
+                        "isAiGenerated": false,
+                        "uploadDate": "2023-12-16T11:46:54.754366",
+                        "href": "/videos/storm-ocean-sky-rain-the-waves-16160/",
+                        "alt": "Storm, Ocean, Sky, Rain, The Waves, Wind",
+                        "title": null,
+                        "description": "Storm, Ocean, Sky, Rain, The Waves, Wind, Dark Clouds",
+                        "name": "Storm, Ocean, Sky, Rain",
+                        "tagLinks": "<a href=\"/videos/search/storm/\">storm</a> <a href=\"/videos/search/ocean/\">ocean</a> <a href=\"/videos/search/sky/\">sky</a> <a href=\"/videos/search/rain/\">rain</a>",
+                        "likeCount": 3040,
+                        "likeHref": "/accounts/like/video/16160/",
+                        "commentCount": 867,
+                        "commentHref": "/videos/storm-ocean-sky-rain-the-waves-16160/#comments",
+                        "contentIdCertificateUrl": null,
+                        "attributionHtml": "Video by <a href=\"https://pixabay.com/users/macb3t-8900437/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=16160\">Macb3t</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=16160\">Pixabay</a>",
+                        "vector": false,
+                        "isEditorsChoice": true,
+                        "isLowQuality": false,
+                        "qualityStatus": 5,
+                        "user": {
+                            "id": 8900437,
+                            "username": "Macb3t",
+                            "firstName": "",
+                            "lastName": "",
+                            "avatarSrc": "https://cdn.pixabay.com/user/2018/05/04/13-06-48-352_96x96.png",
+                            "profileUrl": "/users/macb3t-8900437/",
+                            "socialLinks": [],
+                            "donation": {
+                                "paypal": "kadetpirx@wp.pl",
+                                "method": 2
+                            },
+                            "followerCount": 0,
+                            "aboutMe": "",
+                            "isAvailableForHire": false
+                        },
+                        "viewCount": 829290,
+                        "downloadCount": 395673
+                    }],
+                    "hasMoreItems": true
+                },
+                "mediaType": "video",
+                "comments": [{
+                    "id": 765323,
+                    "created": "2023-12-14T06:12:51.827536Z",
+                    "text": "Thank you so much for providing this beautiful video.\r\nI appreciate your generosity in sharing this for free. Keep up the amazing work!",
+                    "pinned": false,
+                    "markedAsSpam": false,
+                    "user": {
+                        "id": 40757112,
+                        "username": "u_tkilh326rn",
+                        "firstName": "",
+                        "lastName": "",
+                        "avatarSrc": "/static/img/profile_images/purple.svg",
+                        "profileUrl": "/users/u_tkilh326rn-40757112/",
+                        "socialLinks": [],
+                        "donation": null,
+                        "followerCount": 0,
+                        "aboutMe": "",
+                        "isAvailableForHire": false
+                    },
+                    "isEditable": false
+                }, {
+                    "id": 764634,
+                    "created": "2023-12-12T15:11:34.728871Z",
+                    "text": "Thanks",
+                    "pinned": false,
+                    "markedAsSpam": false,
+                    "user": {
+                        "id": 41218877,
+                        "username": "u_gnjn7k1tci",
+                        "firstName": "",
+                        "lastName": "",
+                        "avatarSrc": "/static/img/profile_images/purple.svg",
+                        "profileUrl": "/users/u_gnjn7k1tci-41218877/",
+                        "socialLinks": [],
+                        "donation": null,
+                        "followerCount": 0,
+                        "aboutMe": "",
+                        "isAvailableForHire": false
+                    },
+                    "isEditable": false
+                }, {
+                    "id": 764423,
+                    "created": "2023-12-11T21:27:39.935947Z",
+                    "text": "Thank you a lot",
+                    "pinned": false,
+                    "markedAsSpam": false,
+                    "user": {
+                        "id": 41207056,
+                        "username": "u_jswdwyjivu",
+                        "firstName": "",
+                        "lastName": "",
+                        "avatarSrc": "https://cdn.pixabay.com/user/2023/12/11/21-30-01-679_96x96.jpg",
+                        "profileUrl": "/users/u_jswdwyjivu-41207056/",
+                        "socialLinks": [],
+                        "donation": null,
+                        "followerCount": 0,
+                        "aboutMe": "",
+                        "isAvailableForHire": false
+                    },
+                    "isEditable": false
+                }, {
+                    "id": 764367,
+                    "created": "2023-12-11T16:52:32.913451Z",
+                    "text": "Thank you",
+                    "pinned": false,
+                    "markedAsSpam": false,
+                    "user": {
+                        "id": 41157385,
+                        "username": "CuteAsDucks",
+                        "firstName": "Manali",
+                        "lastName": "Bhosale",
+                        "avatarSrc": "https://cdn.pixabay.com/user/2023/12/09/04-40-06-307_96x96.jpg",
+                        "profileUrl": "/users/cuteasducks-41157385/",
+                        "socialLinks": [],
+                        "donation": null,
+                        "followerCount": 0,
+                        "aboutMe": "",
+                        "isAvailableForHire": false
+                    },
+                    "isEditable": false
+                }, {
+                    "id": 764120,
+                    "created": "2023-12-11T01:03:27.216984Z",
+                    "text": "Thanks",
+                    "pinned": false,
+                    "markedAsSpam": false,
+                    "user": {
+                        "id": 41107938,
+                        "username": "u_ocfmsg6k51",
+                        "firstName": "",
+                        "lastName": "",
+                        "avatarSrc": "/static/img/profile_images/teal.svg",
+                        "profileUrl": "/users/u_ocfmsg6k51-41107938/",
+                        "socialLinks": [],
+                        "donation": null,
+                        "followerCount": 0,
+                        "aboutMe": "",
+                        "isAvailableForHire": false
+                    },
+                    "isEditable": false
+                }],
+                "showAds": true,
+                "showCanvaRetouch": false,
+                "canvaRetouchImageUrl": "",
+                "canvaTemplateAds": null,
+                "canvaTemplateAdsKeywords": null,
+                "sponsoredVideos": [{
+                    "id": "gm1407727602-458832541",
+                    "preview": "https://media.istockphoto.com/id/1407727602/video/under-water-sun-light-seamless-loop-background.mp4?b=1&s=mp4-640x640-is&k=20&c=9N79tvWNaSEq-ouCez0PSZqpNOiamUdbjiq2VXBMJ7Q=",
+                    "thumb": "https://media.istockphoto.com/id/1407727602/video/under-water-sun-light-seamless-loop-background.jpg?b=1&s=640x640&k=20&c=IKHRYJCE0O23IzPWxdjsNV0zy-Iefo7ubuy-PPAv0Ck=",
+                    "linkUrl": "https://www.istockphoto.com/video/under-water-sun-light-seamless-loop-background-gm1407727602-458832541?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave"
+                }, {
+                    "id": "gm1307489102-397744914",
+                    "preview": "https://media.istockphoto.com/id/1307489102/video/slow-motion-top-view-of-sea-foamy-bewitchingly-splashing-waves.mp4?b=1&s=mp4-640x640-is&k=20&c=OB75xcBG7U0QSbMnHEsROEhlDo1-cjnJ4hFjWRUDxzg=",
+                    "thumb": "https://media.istockphoto.com/id/1307489102/video/slow-motion-top-view-of-sea-foamy-bewitchingly-splashing-waves.jpg?b=1&s=640x640&k=20&c=NMKr2tnV5yQb1KETAbt2hfauXwXZJ8KIHXPi45geJeg=",
+                    "linkUrl": "https://www.istockphoto.com/video/slow-motion-top-view-of-sea-foamy-bewitchingly-splashing-waves-gm1307489102-397744914?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave"
+                }, {
+                    "id": "gm1415767301-464004541",
+                    "preview": "https://media.istockphoto.com/id/1415767301/video/sea-on-green-screen-chroma-key.mp4?b=1&s=mp4-640x640-is&k=20&c=17Vb43gS1FB46DNFeWIzkVa397ZFt78SIdJSjmG_kcs=",
+                    "thumb": "https://media.istockphoto.com/id/1415767301/video/sea-on-green-screen-chroma-key.jpg?b=1&s=640x640&k=20&c=iOzNtzjh2z70msx1ROMTzKh9q5T6z7kHLHuIx_F4CGw=",
+                    "linkUrl": "https://www.istockphoto.com/video/sea-on-green-screen-chroma-key-gm1415767301-464004541?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave"
+                }, {
+                    "id": "gm1356214658-430445632",
+                    "preview": "https://media.istockphoto.com/id/1356214658/video/wave-rolls-and-breaks-ocean-wave-rolls-and-breaks-over-the-flat-reef-bottom-in-maldives.mp4?b=1&s=mp4-640x640-is&k=20&c=dpY7q_j2rm8hGw2FLw1K48zYvwuSNq1mAMbxJNXmlPQ=",
+                    "thumb": "https://media.istockphoto.com/id/1356214658/video/wave-rolls-and-breaks-ocean-wave-rolls-and-breaks-over-the-flat-reef-bottom-in-maldives.jpg?b=1&s=640x640&k=20&c=HXjPuFy4unMGYcOXbB0U-mwfBYjVv-GUSBfQZ3FbrhE=",
+                    "linkUrl": "https://www.istockphoto.com/video/wave-rolls-and-breaks-ocean-wave-rolls-and-breaks-over-the-flat-reef-bottom-in-gm1356214658-430445632?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave"
+                }, {
+                    "id": "gm1154130110-313705317",
+                    "preview": "https://media.istockphoto.com/id/1154130110/video/forceful-barrel-wave-splashes-water-around-the-coast-of-tahiti.mp4?b=1&s=mp4-640x640-is&k=20&c=_sgdGn0OmN-o4OFB03XqK27N9qmdRAv7G88Wged8Lr0=",
+                    "thumb": "https://media.istockphoto.com/id/1154130110/video/forceful-barrel-wave-splashes-water-around-the-coast-of-tahiti.jpg?b=1&s=640x640&k=20&c=5bqrNxwX-fs9L1zQfL7GWQsQlPGbXdOYXZyrykVu-Xw=",
+                    "linkUrl": "https://www.istockphoto.com/video/forceful-barrel-wave-splashes-water-around-the-coast-of-tahiti-gm1154130110-313705317?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave"
+                }, {
+                    "id": "gm1410230150-460502327",
+                    "preview": "https://media.istockphoto.com/id/1410230150/video/view-of-the-tropical-beach-top-view-of-the-pink-beach-at-sunset.mp4?b=1&s=mp4-640x640-is&k=20&c=IpwlNJkDZ-XlfH2HqFp6By2NtvNvPkeaI1VBlFyacDU=",
+                    "thumb": "https://media.istockphoto.com/id/1410230150/video/view-of-the-tropical-beach-top-view-of-the-pink-beach-at-sunset.jpg?b=1&s=640x640&k=20&c=kf5rHwJI1zsiVsqYcyczPhyH6tvSnvlebtL6BBSkcEM=",
+                    "linkUrl": "https://www.istockphoto.com/video/view-of-the-tropical-beach-top-view-of-the-pink-beach-at-sunset-gm1410230150-460502327?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave"
+                }, {
+                    "id": "gm1052583810-281226598",
+                    "preview": "https://media.istockphoto.com/id/1052583810/video/slow-motion-over-disturbed-ocean-water-surface-loopable-impressive-background-for-movie.mp4?b=1&s=mp4-640x640-is&k=20&c=_1OXazuPy1bhup5ZQ9YSbJbcvVHLsiV2ZLMfFeyJ6J4=",
+                    "thumb": "https://media.istockphoto.com/id/1052583810/video/slow-motion-over-disturbed-ocean-water-surface-loopable-impressive-background-for-movie.jpg?b=1&s=640x640&k=20&c=EhsL_PIpA2Gd1J-uQ6KH9CbfMDeEHChgPwOd9smzuF8=",
+                    "linkUrl": "https://www.istockphoto.com/video/slow-motion-over-disturbed-ocean-water-surface-loopable-impressive-background-for-gm1052583810-281226598?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave"
+                }, {
+                    "id": "gm1176764896-328236020",
+                    "preview": "https://media.istockphoto.com/id/1176764896/video/waves-of-water-of-the-river-and-the-sea-meet-each-other-during-high-tide-and-low-tide.mp4?b=1&s=mp4-640x640-is&k=20&c=WmP1SBQNkMhz-COBowc2Pb4IQBkKR2pWuxLPxBLhklA=",
+                    "thumb": "https://media.istockphoto.com/id/1176764896/video/waves-of-water-of-the-river-and-the-sea-meet-each-other-during-high-tide-and-low-tide.jpg?b=1&s=640x640&k=20&c=c7cKqL6dtOLTTPyKAEFBGmD3YPmBgg_rSVhWs1IgE_E=",
+                    "linkUrl": "https://www.istockphoto.com/video/waves-of-water-of-the-river-and-the-sea-meet-each-other-during-high-tide-and-low-tide-gm1176764896-328236020?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave"
+                }],
+                "sponsorLinkHref": "https://www.istockphoto.com/footage?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave",
+                "sponsorViewMoreHref": "https://www.istockphoto.com/en/search/2/film?mediatype=video&phrase=sea+wave&utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_video_sponsored_P1&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F&utm_term=sea+wave",
+                "useRedesignedMDP": true,
+                "gettyBrandAdVariant": null
+            }
+        };
         window.__LOCALE__ = '/static/frontend/locale/en.json?c=f3617b1c-828f-4c52-9ddb-88a635e17043';
         window.__E2E__ = false;
         window.__SENTRY_SAMPLE_RATE__ = 0;
         window.__RELEASE_NAME__ = 'release-20231213-d23293cf7';
     </script>
 
-    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=EzJCsJwDfVlqG8d1K6KKOg&gtm_preview=env-1&gtm_cookies_win=x'; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-5CF9ZN');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl +
+                '&gtm_auth=EzJCsJwDfVlqG8d1K6KKOg&gtm_preview=env-1&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5CF9ZN');
+    </script>
     <noscript><iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-5CF9ZN&gtm_auth=EzJCsJwDfVlqG8d1K6KKOg&gtm_preview=env-1&gtm_cookies_win=x"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script type="text/javascript"
-        async="1">; (function (p, l, o, w, i, n, g) { if (!p[i]) { p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || []; p.GlobalSnowplowNamespace.push(i); p[i] = function () { (p[i].q = p[i].q || []).push(arguments) }; p[i].q = p[i].q || []; n = l.createElement(o); g = l.getElementsByTagName(o)[0]; n.async = 1; n.src = w; g.parentNode.insertBefore(n, g) } }(window, document, 'script', '//cdn.jsdelivr.net/npm/@snowplow/javascript-tracker@3.14.0/dist/sp.js', 'snowplow')); window.snowplow('newTracker', 'sp', 'webhooks.fivetran.com/snowplow/5965a13a-0208-4b09-9f16-449198306fea', { appId: 'frontend', withCredentials: false, cookieSameSite: 'Lax', cookieSecure: true, platform: 'web', post: true }); window.snowplow('newTracker', 'sp2', 'api.canva.com/_spi/ae/snowplow/d5a6cd30-7d92-477e-9ea9-2a10fce46e2c', { appId: 'frontend', withCredentials: false, cookieSameSite: 'Lax', cookieSecure: true, platform: 'web', post: true }); window.snowplow('setUserIdFromCookie', 'user_id'); window.snowplow('addPlugin', 'https://cdn.jsdelivr.net/npm/@snowplow/browser-plugin-timezone@3.14.0/dist/index.umd.min.js', ['snowplowTimezone', 'TimezonePlugin']);</script>
+    <script type="text/javascript" async="1">
+        ;
+        (function(p, l, o, w, i, n, g) {
+            if (!p[i]) {
+                p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+                p.GlobalSnowplowNamespace.push(i);
+                p[i] = function() {
+                    (p[i].q = p[i].q || []).push(arguments)
+                };
+                p[i].q = p[i].q || [];
+                n = l.createElement(o);
+                g = l.getElementsByTagName(o)[0];
+                n.async = 1;
+                n.src = w;
+                g.parentNode.insertBefore(n, g)
+            }
+        }(window, document, 'script', '//cdn.jsdelivr.net/npm/@snowplow/javascript-tracker@3.14.0/dist/sp.js',
+            'snowplow'));
+        window.snowplow('newTracker', 'sp', 'webhooks.fivetran.com/snowplow/5965a13a-0208-4b09-9f16-449198306fea', {
+            appId: 'frontend',
+            withCredentials: false,
+            cookieSameSite: 'Lax',
+            cookieSecure: true,
+            platform: 'web',
+            post: true
+        });
+        window.snowplow('newTracker', 'sp2', 'api.canva.com/_spi/ae/snowplow/d5a6cd30-7d92-477e-9ea9-2a10fce46e2c', {
+            appId: 'frontend',
+            withCredentials: false,
+            cookieSameSite: 'Lax',
+            cookieSecure: true,
+            platform: 'web',
+            post: true
+        });
+        window.snowplow('setUserIdFromCookie', 'user_id');
+        window.snowplow('addPlugin',
+            'https://cdn.jsdelivr.net/npm/@snowplow/browser-plugin-timezone@3.14.0/dist/index.umd.min.js', [
+                'snowplowTimezone', 'TimezonePlugin'
+            ]);
+    </script>
     <script src="/static/frontend/client.9aef5fda9ec78ae3bf43.js"></script>
 
 
     <div id="1BDE5C73-0685-5E11-2D98-6F87CE59614E"></div>
     <div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div>
-    <script type="text/javascript"
-        id="">google_tag_manager["rm"]["1933010"](22) && google_tag_manager["rm"]["1933010"](23) && (+function (c, g, h, k, a) {
-                c.appboy = {}; c.appboyQueue = []; a = "initialize destroy getDeviceId toggleAppboyLogging setLogger openSession changeUser requestImmediateDataFlush requestFeedRefresh subscribeToFeedUpdates requestContentCardsRefresh subscribeToContentCardsUpdates logCardImpressions logCardClick logCardDismissal logFeedDisplayed logContentCardsDisplayed logInAppMessageImpression logInAppMessageClick logInAppMessageButtonClick logInAppMessageHtmlClick subscribeToNewInAppMessages subscribeToInAppMessage removeSubscription removeAllSubscriptions logCustomEvent logPurchase isPushSupported isPushBlocked isPushGranted isPushPermissionGranted registerAppboyPushMessages unregisterAppboyPushMessages trackLocation stopWebTracking resumeWebTracking wipeData ab ab.DeviceProperties ab.User ab.User.Genders ab.User.NotificationSubscriptionTypes ab.User.prototype.getUserId ab.User.prototype.setFirstName ab.User.prototype.setLastName ab.User.prototype.setEmail ab.User.prototype.setGender ab.User.prototype.setDateOfBirth ab.User.prototype.setCountry ab.User.prototype.setHomeCity ab.User.prototype.setLanguage ab.User.prototype.setEmailNotificationSubscriptionType ab.User.prototype.setPushNotificationSubscriptionType ab.User.prototype.setPhoneNumber ab.User.prototype.setAvatarImageUrl ab.User.prototype.setLastKnownLocation ab.User.prototype.setUserAttribute ab.User.prototype.setCustomUserAttribute ab.User.prototype.addToCustomAttributeArray ab.User.prototype.removeFromCustomAttributeArray ab.User.prototype.incrementCustomUserAttribute ab.User.prototype.addAlias ab.User.prototype.setCustomLocationAttribute ab.InAppMessage ab.InAppMessage.SlideFrom ab.InAppMessage.ClickAction ab.InAppMessage.DismissType ab.InAppMessage.OpenTarget ab.InAppMessage.ImageStyle ab.InAppMessage.TextAlignment ab.InAppMessage.Orientation ab.InAppMessage.CropType ab.InAppMessage.prototype.subscribeToClickedEvent ab.InAppMessage.prototype.subscribeToDismissedEvent ab.InAppMessage.prototype.removeSubscription ab.InAppMessage.prototype.removeAllSubscriptions ab.InAppMessage.prototype.closeMessage ab.InAppMessage.Button ab.InAppMessage.Button.prototype.subscribeToClickedEvent ab.InAppMessage.Button.prototype.removeSubscription ab.InAppMessage.Button.prototype.removeAllSubscriptions ab.SlideUpMessage ab.ModalMessage ab.FullScreenMessage ab.HtmlMessage ab.ControlMessage ab.Feed ab.Feed.prototype.getUnreadCardCount ab.ContentCards ab.ContentCards.prototype.getUnviewedCardCount ab.Card ab.Card.prototype.dismissCard ab.ClassicCard ab.CaptionedImage ab.Banner ab.ControlCard ab.WindowUtils display display.automaticallyShowNewInAppMessages display.showInAppMessage display.showFeed display.destroyFeed display.toggleFeed display.showContentCards display.hideContentCards display.toggleContentCards sharedLib".split(" ");
-                for (var d = 0; d < a.length; d++) { for (var l = a[d], e = c.appboy, f = l.split("."), b = 0; b < f.length - 1; b++)e = e[f[b]]; e[f[b]] = (new Function("return function " + l.replace(/\./g, "_") + "(){window.appboyQueue.push(arguments); return true}"))() } window.appboy.getUser = function () { return new window.appboy.ab.User }; window.appboy.getCachedFeed = function () { return new window.appboy.ab.Feed }; window.appboy.getCachedContentCards = function () { return new window.appboy.ab.ContentCards }; (a = g.createElement(h)).type = "text/javascript"; a.src =
-                    "https://js.appboycdn.com/web-sdk/2.4/appboy.min.js"; a.async = 1; (k = g.getElementsByTagName(h)[0]).parentNode.insertBefore(a, k)
-            }(window, document, "script"), window.appboy.initialize(google_tag_manager["rm"]["1933010"](24)), window.appboy.display.automaticallyShowNewInAppMessages(), window.appboy.changeUser(google_tag_manager["rm"]["1933010"](25)), window.appboy.openSession());</script>
+    <script type="text/javascript" id="">
+        google_tag_manager["rm"]["1933010"](22) && google_tag_manager["rm"]["1933010"](23) && (+ function(c, g, h, k, a) {
+                c.appboy = {};
+                c.appboyQueue = [];
+                a = "initialize destroy getDeviceId toggleAppboyLogging setLogger openSession changeUser requestImmediateDataFlush requestFeedRefresh subscribeToFeedUpdates requestContentCardsRefresh subscribeToContentCardsUpdates logCardImpressions logCardClick logCardDismissal logFeedDisplayed logContentCardsDisplayed logInAppMessageImpression logInAppMessageClick logInAppMessageButtonClick logInAppMessageHtmlClick subscribeToNewInAppMessages subscribeToInAppMessage removeSubscription removeAllSubscriptions logCustomEvent logPurchase isPushSupported isPushBlocked isPushGranted isPushPermissionGranted registerAppboyPushMessages unregisterAppboyPushMessages trackLocation stopWebTracking resumeWebTracking wipeData ab ab.DeviceProperties ab.User ab.User.Genders ab.User.NotificationSubscriptionTypes ab.User.prototype.getUserId ab.User.prototype.setFirstName ab.User.prototype.setLastName ab.User.prototype.setEmail ab.User.prototype.setGender ab.User.prototype.setDateOfBirth ab.User.prototype.setCountry ab.User.prototype.setHomeCity ab.User.prototype.setLanguage ab.User.prototype.setEmailNotificationSubscriptionType ab.User.prototype.setPushNotificationSubscriptionType ab.User.prototype.setPhoneNumber ab.User.prototype.setAvatarImageUrl ab.User.prototype.setLastKnownLocation ab.User.prototype.setUserAttribute ab.User.prototype.setCustomUserAttribute ab.User.prototype.addToCustomAttributeArray ab.User.prototype.removeFromCustomAttributeArray ab.User.prototype.incrementCustomUserAttribute ab.User.prototype.addAlias ab.User.prototype.setCustomLocationAttribute ab.InAppMessage ab.InAppMessage.SlideFrom ab.InAppMessage.ClickAction ab.InAppMessage.DismissType ab.InAppMessage.OpenTarget ab.InAppMessage.ImageStyle ab.InAppMessage.TextAlignment ab.InAppMessage.Orientation ab.InAppMessage.CropType ab.InAppMessage.prototype.subscribeToClickedEvent ab.InAppMessage.prototype.subscribeToDismissedEvent ab.InAppMessage.prototype.removeSubscription ab.InAppMessage.prototype.removeAllSubscriptions ab.InAppMessage.prototype.closeMessage ab.InAppMessage.Button ab.InAppMessage.Button.prototype.subscribeToClickedEvent ab.InAppMessage.Button.prototype.removeSubscription ab.InAppMessage.Button.prototype.removeAllSubscriptions ab.SlideUpMessage ab.ModalMessage ab.FullScreenMessage ab.HtmlMessage ab.ControlMessage ab.Feed ab.Feed.prototype.getUnreadCardCount ab.ContentCards ab.ContentCards.prototype.getUnviewedCardCount ab.Card ab.Card.prototype.dismissCard ab.ClassicCard ab.CaptionedImage ab.Banner ab.ControlCard ab.WindowUtils display display.automaticallyShowNewInAppMessages display.showInAppMessage display.showFeed display.destroyFeed display.toggleFeed display.showContentCards display.hideContentCards display.toggleContentCards sharedLib"
+                    .split(" ");
+                for (var d = 0; d < a.length; d++) {
+                    for (var l = a[d], e = c.appboy, f = l.split("."), b = 0; b < f.length - 1; b++) e = e[f[b]];
+                    e[f[b]] = (new Function("return function " + l.replace(/\./g, "_") +
+                        "(){window.appboyQueue.push(arguments); return true}"))()
+                }
+                window.appboy.getUser = function() {
+                    return new window.appboy.ab.User
+                };
+                window.appboy.getCachedFeed = function() {
+                    return new window.appboy.ab.Feed
+                };
+                window.appboy.getCachedContentCards = function() {
+                    return new window.appboy.ab.ContentCards
+                };
+                (a = g.createElement(h)).type = "text/javascript";
+                a.src =
+                    "https://js.appboycdn.com/web-sdk/2.4/appboy.min.js";
+                a.async = 1;
+                (k = g.getElementsByTagName(h)[0]).parentNode.insertBefore(a, k)
+            }(window, document, "script"), window.appboy.initialize(google_tag_manager["rm"]["1933010"](24)), window
+            .appboy.display.automaticallyShowNewInAppMessages(), window.appboy.changeUser(google_tag_manager["rm"][
+                "1933010"
+            ](25)), window.appboy.openSession());
+    </script>
     <iframe id="nr-ext-rsicon"
         style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe>
     <div id="onetrust-consent-sdk">
@@ -7797,16 +8626,17 @@
     <div>
         <div class="grecaptcha-badge" data-style="bottomright"
             style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
-            <div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation"
-                    name="a-pjnmo3emtb8" frameborder="0" scrolling="no"
+            <div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60"
+                    role="presentation" name="a-pjnmo3emtb8" frameborder="0" scrolling="no"
                     sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
                     src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeyhLIaAAAAAI8XfF3RoG62z0L0RLUrgGVb1p_z&amp;co=aHR0cHM6Ly9waXhhYmF5LmNvbTo0NDM.&amp;hl=vi&amp;v=u-xcq3POCWFlCr3x8_IPxgPu&amp;size=invisible&amp;cb=6vu73j28ap3i"></iframe>
             </div>
-            <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response"
-                class="g-recaptcha-response"
+            <div class="grecaptcha-error"></div>
+            <textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response"
                 style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
         </div><iframe style="display: none;"></iframe>
-    </div><textarea tabindex="-1" aria-hidden="true"
+    </div>
+    <textarea tabindex="-1" aria-hidden="true"
         style="min-height: 0px !important; max-height: none !important; height: 0px !important; visibility: hidden !important; overflow: hidden !important; position: absolute !important; z-index: -1000 !important; top: 0px !important; right: 0px !important; border-width: 1px; box-sizing: border-box; font-family: &quot;Open Sans&quot;, Arial, system-ui; font-size: 13.3333px; font-style: normal; font-weight: 400; letter-spacing: normal; line-height: normal; padding: 8px 12px 0px; tab-size: 4; text-indent: 0px; text-rendering: auto; text-transform: none; width: 100%; word-break: break-word;"></textarea>
     <script src="https://player.vimeo.com/api/player.js" id="vimeoPlayer"></script>
     <div></div>
@@ -7826,7 +8656,8 @@
                             <br><br>
                             At Pixabay, we like to keep things as simple as possible. For this reason, we have created
                             this short summary of our Content License which is available in full <a
-                                href="/service/terms/" target="_blank">here</a>. Please keep in mind that only the full
+                                href="/service/terms/" target="_blank">here</a>. Please keep in mind that only the
+                            full
                             Content License is legally binding.
                         </div>
                         <hr class="divider--dlcX7">
@@ -7847,23 +8678,27 @@
                         <div class="section--UdiU7">
                             <div class="sectionHeading--Y-C-S">What are you not allowed to do with Content?</div>
                             <div>We refer to these as Prohibited Uses which include:</div>
-                            <div class="iconRow--ow6XH"><span class="icon--L+lBh close--qCtdc crossIcon--d+uHK"></span>
+                            <div class="iconRow--ow6XH"><span
+                                    class="icon--L+lBh close--qCtdc crossIcon--d+uHK"></span>
                                 <div class="text--iRdPa">You cannot sell or distribute Content (either in digital or
                                     physical form) on a Standalone basis. Standalone means where no creative effort has
                                     been applied to the Content and it remains in substantially the same form as it
                                     exists on our website.</div>
                             </div>
-                            <div class="iconRow--ow6XH"><span class="icon--L+lBh close--qCtdc crossIcon--d+uHK"></span>
+                            <div class="iconRow--ow6XH"><span
+                                    class="icon--L+lBh close--qCtdc crossIcon--d+uHK"></span>
                                 <div class="text--iRdPa">If Content contains any recognisable trademarks, logos or
                                     brands, you cannot use that Content for commercial purposes in relation to goods and
                                     services. In particular, you cannot print that Content on merchandise or other
                                     physical products for sale.</div>
                             </div>
-                            <div class="iconRow--ow6XH"><span class="icon--L+lBh close--qCtdc crossIcon--d+uHK"></span>
+                            <div class="iconRow--ow6XH"><span
+                                    class="icon--L+lBh close--qCtdc crossIcon--d+uHK"></span>
                                 <div class="text--iRdPa">You cannot use Content in any immoral or illegal way,
                                     especially Content which features recognisable people.</div>
                             </div>
-                            <div class="iconRow--ow6XH"><span class="icon--L+lBh close--qCtdc crossIcon--d+uHK"></span>
+                            <div class="iconRow--ow6XH"><span
+                                    class="icon--L+lBh close--qCtdc crossIcon--d+uHK"></span>
                                 <div class="text--iRdPa">You cannot use Content in a misleading or deceptive way.</div>
                             </div>
                         </div>
@@ -7889,10 +8724,10 @@
                     <div class="main--Wke9e">
                         <div class="main--W8Tst"><span>What is the issue?</span>
                             <div class="textInputContainer--UKemN">
-                                <div class="textInputField--xIcYM"><textarea
-                                        placeholder="Please tell us why you are reporting this description"
-                                        class="textInput--yG-0W textArea---vB9y"
-                                        style="height: 64px !important;"></textarea></div>
+                                <div class="textInputField--xIcYM">
+                                    <textarea placeholder="Please tell us why you are reporting this description" class="textInput--yG-0W textArea---vB9y"
+                                        style="height: 64px !important;"></textarea>
+                                </div>
                             </div>
                         </div>
                         <div class="footer--ZdNHV"><button
@@ -7919,7 +8754,8 @@
                                 <div class="triggerWrapper--NACCC triggerWrapper--vrfwD"><button
                                         class="trigger--3n86C buttonBase--r4opq secondaryButton--xk9cO base--jzyee light--uBcBI"
                                         type="button"> <span class="label--Ngqjq">Choose a reason</span><span
-                                            class="icon--L+lBh chevron-d--ne5Cd rightIcon--V-PNx"></span></button></div>
+                                            class="icon--L+lBh chevron-d--ne5Cd rightIcon--V-PNx"></span></button>
+                                </div>
                                 <div class="dropdown--QzC2F light--boaNg left--mbCrK hidden--Q5vOS fullWidth--+SsuX">
                                     <div class="dropdownMenu--XdQD- menuContainer--Enx50">
                                         <div class="dropdownMenuItem--yZ9j-"><label>Irrelevant tag</label></div>
@@ -7952,7 +8788,8 @@
                                 <div class="triggerWrapper--NACCC triggerWrapper--MbC6c"><button
                                         class="trigger--pr6mE buttonBase--r4opq secondaryButton--xk9cO base--jzyee light--uBcBI"
                                         type="button"> <span class="label--Ngqjq">Choose a reason</span><span
-                                            class="icon--L+lBh chevron-d--ne5Cd rightIcon--V-PNx"></span></button></div>
+                                            class="icon--L+lBh chevron-d--ne5Cd rightIcon--V-PNx"></span></button>
+                                </div>
                                 <div class="dropdown--QzC2F light--boaNg left--mbCrK hidden--Q5vOS fullWidth--+SsuX">
                                     <div class="dropdownMenu--XdQD- menuContainer--WxVBY">
                                         <div class="dropdownMenuItem--yZ9j-"><label>Copyright infringement or privacy
@@ -7986,25 +8823,29 @@
                     <div class="container--HDxOy">
                         <div class="socialMedia--Cj9PA"><a
                                 href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F"
-                                target="_blank"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M20 12.049C20 7.603 16.419 4 12 4c-4.419 0-8 3.603-8 8.049 0 4.018 2.925 7.347 6.75 7.951v-5.625H8.719V12.05h2.031v-1.774c0-2.016 1.194-3.13 3.022-3.13.875 0 1.79.156 1.79.156v1.981h-1.009c-.994 0-1.303.621-1.303 1.258v1.509h2.219l-.355 2.326H13.25V20c3.825-.604 6.75-3.933 6.75-7.951z"
                                         fill="#4267B2"></path>
                                 </svg></a><a
                                 href="https://www.twitter.com/share?url=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F"
-                                target="_blank"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M18.993 7.283c.721-.477 1.276-1.232 1.536-2.131a6.611 6.611 0 01-2.218.935c-.637-.749-1.546-1.217-2.55-1.217-1.93 0-3.494 1.725-3.494 3.852 0 .302.03.596.09.878-2.903-.16-5.478-1.694-7.2-4.025a4.14 4.14 0 00-.474 1.937c0 1.337.617 2.516 1.554 3.206a3.237 3.237 0 01-1.582-.481v.048c0 1.867 1.204 3.424 2.802 3.778a3.198 3.198 0 01-1.578.066c.445 1.53 1.735 2.644 3.264 2.675-1.196 1.033-2.702 1.649-4.339 1.649-.282 0-.56-.018-.833-.054 1.546 1.093 3.382 1.731 5.355 1.731 6.426 0 9.94-5.87 9.94-10.961 0-.167-.003-.333-.01-.498A7.547 7.547 0 0021 6.677c-.627.306-1.3.513-2.007.606z"
                                         fill="#1DA1F2"></path>
                                 </svg></a><a
                                 href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F"
-                                target="_blank"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M18.337 18.338H15.67V14.16c0-.996-.019-2.278-1.387-2.278-1.39 0-1.602 1.085-1.602 2.206v4.249h-2.666v-8.59h2.56v1.174h.036c.356-.676 1.227-1.388 2.526-1.388 2.7 0 3.2 1.779 3.2 4.092v4.712zM7.004 8.574a1.548 1.548 0 11-.003-3.095 1.548 1.548 0 01.003 3.095zm-1.336 9.764H8.34v-8.59H5.668v8.59zM19.666 3H4.327C3.595 3 3 3.581 3 4.297v15.404C3 20.418 3.595 21 4.327 21h15.34C20.4 21 21 20.418 21 19.701V4.297C21 3.581 20.4 3 19.666 3z"
                                         fill="#0072B1"></path>
                                 </svg></a><a
                                 href="http://tumblr.com/widgets/share/tool?canonicalUrl=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F"
-                                target="_blank"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#tumblr_icon_svg__clip0_13564_1201)">
                                         <path
                                             d="M11.991 4.088a7.903 7.903 0 100 15.806 7.903 7.903 0 000-15.806zm2.486 12.294H13.01c-1.32 0-2.305-.68-2.305-2.305v-2.603h-1.2v-1.41c1.32-.343 1.873-1.48 1.937-2.464h1.371v2.235h1.6v1.639h-1.6v2.266c0 .68.343.915.89.915h.774v1.727z"
@@ -8017,13 +8858,15 @@
                                     </defs>
                                 </svg></a><a
                                 href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F"
-                                target="_blank"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M12 3.999a8 8 0 00-2.916 15.453c-.07-.633-.134-1.607.027-2.298.146-.624.938-3.976.938-3.976s-.239-.48-.239-1.188c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.713-.662 2.664-.189.796.399 1.445 1.184 1.445 1.422 0 2.515-1.499 2.515-3.663 0-1.916-1.376-3.255-3.342-3.255-2.276 0-3.612 1.707-3.612 3.472 0 .687.265 1.425.595 1.825a.24.24 0 01.056.23c-.061.253-.196.796-.223.907-.034.147-.116.178-.267.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.776 0 4.932 1.977 4.932 4.62 0 2.758-1.738 4.976-4.151 4.976-.81 0-1.573-.42-1.834-.918 0 0-.401 1.527-.498 1.902-.181.695-.669 1.566-.995 2.097A8 8 0 1012 4z"
                                         fill="#E60023"></path>
                                 </svg></a><a
                                 href="https://www.reddit.com/submit?url=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F"
-                                target="_blank"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#reddit_icon_svg__clip0_13564_1647)">
                                         <path d="M12 20a8 8 0 100-16 8 8 0 000 16z" fill="#FF4500"></path>
                                         <path
@@ -8037,7 +8880,8 @@
                                     </defs>
                                 </svg></a><a
                                 href="https://www.vkontakte.ru/share.php?url=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F"
-                                target="_blank"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M9.547 4h4.906C18.933 4 20 5.067 20 9.547v4.906C20 18.933 18.933 20 14.453 20H9.547C5.067 20 4 18.933 4 14.453V9.547C4 5.067 5.067 4 9.547 4z"
                                         fill="#2787F5"></path>
@@ -8046,7 +8890,8 @@
                                         fill="#fff"></path>
                                 </svg></a><a
                                 href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsea-wave-golden-sand-sunrise-4006%2F"
-                                target="_blank"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                target="_blank"><svg viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#weibo_icon_svg__clip0_6316_1947)">
                                         <path
                                             d="M19.983 9.843c.069.892-.082 1.96-.67 2.012-.962.086-.46-.972-.448-1.61.035-1.846-1.54-3.129-3.085-3.129-.437 0-1.453.297-1.297-.626.07-.407.415-.401.76-.447 2.597-.346 4.557 1.44 4.74 3.8z"
@@ -8063,7 +8908,8 @@
                                     </g>
                                     <defs>
                                         <clipPath id="weibo_icon_svg__clip0_6316_1947">
-                                            <path fill="#fff" transform="translate(4 6)" d="M0 0h16v12.877H0z"></path>
+                                            <path fill="#fff" transform="translate(4 6)" d="M0 0h16v12.877H0z">
+                                            </path>
                                         </clipPath>
                                     </defs>
                                 </svg></a></div>
@@ -8115,7 +8961,8 @@
                 </header>
                 <article>
                     <div class="container--qgKm4">
-                        <p class="message--2yr4D">No worries! Fill in your email and we'll send you a link to reset your
+                        <p class="message--2yr4D">No worries! Fill in your email and we'll send you a link to reset
+                            your
                             password</p><label for="#reset_password_email_input">Email</label>
                         <div class="textInputContainer--UKemN">
                             <div class="textInputField--xIcYM"><input id="reset_password_email_input"
@@ -8147,8 +8994,8 @@
             <div class="viewIconEjoy gl-tooltip-ejoy gl-tooltip-ejoy-left" tooltip-data="eJOY AI Assistant">
                 <div class="viewIconEjoyItem"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="26"
                         viewBox="0 0 24 26" fill="none">
-                        <mask id="mask0_427_34" maskUnits="userSpaceOnUse" x="16" y="3" width="8" height="8"
-                            style="mask-type: luminance;">
+                        <mask id="mask0_427_34" maskUnits="userSpaceOnUse" x="16" y="3" width="8"
+                            height="8" style="mask-type: luminance;">
                             <path d="M24 3H16V11H24V3Z" fill="white"></path>
                         </mask>
                         <g mask="url(#mask0_427_34)">
@@ -8156,8 +9003,8 @@
                                 d="M23.8012 7.00309L21.0136 8.01539L20.0012 10.8031L18.9889 8.01539L16.2012 7.00309L18.9889 5.9908L20.0012 3.20309L21.0136 5.9908L23.8012 7.00309Z"
                                 fill="url(#paint0_linear_427_34)"></path>
                         </g>
-                        <mask id="mask1_427_34" maskUnits="userSpaceOnUse" x="0" y="10" width="6" height="6"
-                            style="mask-type: luminance;">
+                        <mask id="mask1_427_34" maskUnits="userSpaceOnUse" x="0" y="10" width="6"
+                            height="6" style="mask-type: luminance;">
                             <path d="M6 10H0V16H6V10Z" fill="white"></path>
                         </mask>
                         <g mask="url(#mask1_427_34)">
@@ -8165,8 +9012,8 @@
                                 d="M5.8494 13.0023L3.7587 13.7616L2.9994 15.8523L2.2402 13.7616L0.149399 13.0023L2.2402 12.2431L2.9994 10.1523L3.7587 12.2431L5.8494 13.0023Z"
                                 fill="url(#paint1_linear_427_34)"></path>
                         </g>
-                        <mask id="mask2_427_34" maskUnits="userSpaceOnUse" x="16" y="20" width="4" height="4"
-                            style="mask-type: luminance;">
+                        <mask id="mask2_427_34" maskUnits="userSpaceOnUse" x="16" y="20" width="4"
+                            height="4" style="mask-type: luminance;">
                             <path d="M20 20H16V24H20V20Z" fill="white"></path>
                         </mask>
                         <g mask="url(#mask2_427_34)">
@@ -8200,8 +9047,8 @@
                                 <stop stop-color="#1DA1F2"></stop>
                                 <stop offset="1" stop-color="#6CD2FF"></stop>
                             </linearGradient>
-                            <linearGradient id="paint1_linear_427_34" x1="2.9994" y1="10.1523" x2="2.9994" y2="15.8523"
-                                gradientUnits="userSpaceOnUse">
+                            <linearGradient id="paint1_linear_427_34" x1="2.9994" y1="10.1523" x2="2.9994"
+                                y2="15.8523" gradientUnits="userSpaceOnUse">
                                 <stop stop-color="#1DA1F2"></stop>
                                 <stop offset="1" stop-color="#6CD2FF"></stop>
                             </linearGradient>
