@@ -7315,7 +7315,7 @@
     <div id="app">
         <div data-hid="root">
             <div class="page--JIWhO">
-                <header class="header--TuwRF">
+                <header class="header--TuwRF unsetPosition--8Q7VS">
                     <div>
                         <div class="logo--Fxnxa noGrowOnDesktop--iT0yH noGrowOnMobile--mglkb"><a href="/"
                                 aria-label="Pixabay"><svg viewBox="0 0 120 33" xmlns="http://www.w3.org/2000/svg"
@@ -7339,10 +7339,10 @@
                                 </svg></a></div>
                         <div class="desktopSearch--Nfr5C">
                             <div class="container---s-RT standard--OWAow">
-                                <form class="searchForm--XoxyI" action="/videos/search/sea/" method="get"><button
+                                <form class="searchForm--XoxyI" action="/videos/search/" method="get"><button
                                         class="submit--EM+-q" type="submit" aria-label="Search Pixabay"><span
                                             class="icon--L+lBh search--+Zx4F"></span></button><input type="search"
-                                        name="search" placeholder="Search Pixabay" value="sea"></form>
+                                        name="search" placeholder="Search Pixabay" value=""></form>
                                 <div class="container--YKYLB">
                                     <div class="triggerWrapper--NACCC"><button
                                             class="mediaTypeDropdown--QeCw4 buttonBase--r4opq tertiaryButton--+4ehJ base--jzyee light--uBcBI"
@@ -7352,12 +7352,14 @@
                                     <div class="dropdown--QzC2F light--boaNg right--Yg1-e hidden--Q5vOS">
                                         <div class="dropdownMenu--XdQD-">
                                             <div class="dropdownMenuItem--yZ9j-">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh image--xraWQ"></span>
-                                                </div><label>All images</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh image--xraWQ"></span></div><label>All
+                                                    images</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j- indentByOne--jwxhb">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh photo--q4EAP"></span>
-                                                </div><label>Photos</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh photo--q4EAP"></span></div>
+                                                <label>Photos</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j- indentByOne--jwxhb">
                                                 <div class="icon--IMEft"><span
@@ -7365,16 +7367,19 @@
                                                 <label>Illustrations</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j- indentByOne--jwxhb">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh vector--FUgoN"></span>
-                                                </div><label>Vectors</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh vector--FUgoN"></span></div>
+                                                <label>Vectors</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j- active--yBWJC">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh video--ECx9r"></span>
-                                                </div><label>Videos</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh video--ECx9r"></span></div>
+                                                <label>Videos</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j-">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh music--VR9Xr"></span>
-                                                </div><label>Music</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh music--VR9Xr"></span></div>
+                                                <label>Music</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j-">
                                                 <div class="icon--IMEft"><span
@@ -7382,8 +7387,9 @@
                                                 <label>Sound Effects</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j-">
-                                                <div class="icon--IMEft"><span class="icon--L+lBh flame--+xiI7"></span>
-                                                </div><label>GIFs</label>
+                                                <div class="icon--IMEft"><span
+                                                        class="icon--L+lBh flame--+xiI7"></span></div>
+                                                <label>GIFs</label>
                                             </div>
                                             <div class="dropdownMenuItem--yZ9j-">
                                                 <div class="icon--IMEft"><span class="icon--L+lBh user--jPNiT"></span>
@@ -7402,7 +7408,8 @@
                                 <div class="triggerWrapper--NACCC"><button
                                         class="buttonBase--r4opq tertiaryButton--+4ehJ base--jzyee light--uBcBI"
                                         type="button"> <span class="label--Ngqjq">Explore</span><span
-                                            class="icon--L+lBh chevron-d--ne5Cd rightIcon--V-PNx"></span></button></div>
+                                            class="icon--L+lBh chevron-d--ne5Cd rightIcon--V-PNx"></span></button>
+                                </div>
                                 <div class="dropdown--QzC2F dark--pbGst right--Yg1-e hidden--Q5vOS">
                                     <div class="container--kDUDv">
                                         <div class="siteMenu--6po+J">
@@ -7504,57 +7511,57 @@
                                                                 class="dropdown--QzC2F dark--pbGst left--mbCrK hidden--Q5vOS">
                                                                 <div class="languageMenuContainer--jy7WL"><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/mořerch/moře/"><label>Čeština</label></a><a
+                                                                        href="https://pixabay.com/cs/videos/mraky-%C3%BAvod-nebe-po%C4%8Das%C3%AD-p%C5%99%C3%ADroda-16923/"><label>Čeština</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/havrch/hav/"><label>Dansk</label></a><a
+                                                                        href="https://pixabay.com/da/videos/skyer-intro-himmel-vejr-natur-16923/"><label>Dansk</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/meerrch/meer/"><label>Deutsch</label></a><a
+                                                                        href="https://pixabay.com/de/videos/wolken-intro-himmel-wetter-natur-16923/"><label>Deutsch</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/search/sea/"><label>English</label></a><a
+                                                                        href="https://pixabay.com/videos/clouds-intro-sky-weather-nature-16923/"><label>English</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/marrch/mar/"><label>Español</label></a><a
+                                                                        href="https://pixabay.com/es/videos/nubes-intro-cielo-tiempo-16923/"><label>Español</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/merrch/mer/"><label>Français</label></a><a
+                                                                        href="https://pixabay.com/fr/videos/des-nuages-intro-ciel-16923/"><label>Français</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/lautrch/laut/"><label>Indonesia</label></a><a
+                                                                        href="https://pixabay.com/id/videos/awan-intro-langit-cuaca-alam-16923/"><label>Indonesia</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/marerch/mare/"><label>Italiano</label></a><a
+                                                                        href="https://pixabay.com/it/videos/nuvole-intro-cielo-16923/"><label>Italiano</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/tengerrch/tenger/"><label>Magyar</label></a><a
+                                                                        href="https://pixabay.com/hu/videos/felh%C5%91k-bevezet%C5%91-%C3%A9g-id%C5%91j%C3%A1r%C3%A1s-16923/"><label>Magyar</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/zeerch/zee/"><label>Nederlands</label></a><a
+                                                                        href="https://pixabay.com/nl/videos/wolken-intro-lucht-weer-natuur-16923/"><label>Nederlands</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/havetrch/havet/"><label>Norsk</label></a><a
+                                                                        href="https://pixabay.com/no/videos/skyer-intro-himmel-v%C3%A6r-natur-16923/"><label>Norsk</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/morzerch/morze/"><label>Polski</label></a><a
+                                                                        href="https://pixabay.com/pl/videos/chmury-intro-niebo-pogoda-natura-16923/"><label>Polski</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/marrch/mar/"><label>Português</label></a><a
+                                                                        href="https://pixabay.com/pt/videos/nuvens-intro-c%C3%A9u-clima-natureza-16923/"><label>Português</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/marerch/mare/"><label>Română</label></a><a
+                                                                        href="https://pixabay.com/ro/videos/nori-intro-cer-vreme-natura-16923/"><label>Română</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/sk/videos/search/sea/"><label>Slovenčina</label></a><a
+                                                                        href="https://pixabay.com/sk/videos/mraky-intro-obloha-po%C4%8Dasie-pr%C3%ADroda-16923/"><label>Slovenčina</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/merirch/meri/"><label>Suomi</label></a><a
+                                                                        href="https://pixabay.com/fi/videos/pilvet-intro-taivas-s%C3%A4%C3%A4-luonne-16923/"><label>Suomi</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/havetrch/havet/"><label>Svenska</label></a><a
+                                                                        href="https://pixabay.com/sv/videos/moln-intro-himmel-v%C3%A4der-natur-16923/"><label>Svenska</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/denizrch/deniz/"><label>Türkçe</label></a><a
+                                                                        href="https://pixabay.com/tr/videos/bulutlar-intro-g%C3%B6ky%C3%BCz%C3%BC-hava-durumu-16923/"><label>Türkçe</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/biểnrch/biển/"><label>Việt</label></a><a
+                                                                        href="https://pixabay.com/vi/videos/nh%E1%BB%AFng-%C4%91%C3%A1m-m%C3%A2y-gi%E1%BB%9Bi-thi%E1%BB%87u-b%E1%BA%A7u-tr%E1%BB%9Di-16923/"><label>Việt</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/ทะเลrch/ทะเล/"><label>ไทย</label></a><a
+                                                                        href="https://pixabay.com/th/videos/%E0%B9%80%E0%B8%A1%E0%B8%86-%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%97%E0%B8%A3-%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%9F%E0%B8%B2-%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8-16923/"><label>ไทย</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/bg/videos/search/sea/"><label>Български</label></a><a
+                                                                        href="https://pixabay.com/bg/videos/%D0%BE%D0%B1%D0%BB%D0%B0%D1%86%D0%B8-%D0%B8%D0%BD%D1%82%D1%80%D0%BE-%D0%BD%D0%B5%D0%B1%D0%B5-16923/"><label>Български</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/мореrch/море/"><label>Русский</label></a><a
+                                                                        href="https://pixabay.com/ru/videos/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%B0-%D0%B8%D0%BD%D1%82%D1%80%D0%BE-%D0%BD%D0%B5%D0%B1%D0%BE-%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-16923/"><label>Русский</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/θάλασσαrch/θάλασσα/"><label>Ελληνική</label></a><a
+                                                                        href="https://pixabay.com/el/videos/%CF%83%CF%8D%CE%BD%CE%BD%CE%B5%CF%86%CE%B1-intro-%CE%BF%CF%85%CF%81%CE%B1%CE%BD%CF%8C%CF%82-%CE%BA%CE%B1%CE%B9%CF%81%CF%8C%CF%82-%CF%86%CF%8D%CF%83%CE%B7-16923/"><label>Ελληνική</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/海rch/海/"><label>日本語</label></a><a
+                                                                        href="https://pixabay.com/ja/videos/%E9%9B%B2-%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD-%E7%A9%BA-%E5%A4%A9%E6%B0%97-%E8%87%AA%E7%84%B6-16923/"><label>日本語</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/바다rch/바다/"><label>한국어</label></a><a
+                                                                        href="https://pixabay.com/ko/videos/%EA%B5%AC%EB%A6%84-%EC%86%8C%EA%B0%9C-%ED%95%98%EB%8A%98-%EB%82%A0%EC%94%A8-%EC%9E%90%EC%97%B0-16923/"><label>한국어</label></a><a
                                                                         class="dropdownMenuItem--yZ9j-"
-                                                                        href="https://pixabay.com/videos/海rch/海/"><label>简体中文</label></a>
+                                                                        href="https://pixabay.com/zh/videos/clouds-intro-sky-weather-nature-16923/"><label>简体中文</label></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -7566,9 +7573,10 @@
                                                 target="_blank" rel="noopener"><span
                                                     class="icon--L+lBh facebook--qtn-m"></span></a><a
                                                 href="https://www.instagram.com/pixabay/" target="_blank"
-                                                rel="noopener"><span class="icon--L+lBh instagram--aJkpQ"></span></a><a
-                                                href="https://twitter.com/pixabay" target="_blank" rel="noopener"><span
-                                                    class="icon--L+lBh twitter--e5tjD"></span></a><a
+                                                rel="noopener"><span
+                                                    class="icon--L+lBh instagram--aJkpQ"></span></a><a
+                                                href="https://twitter.com/pixabay" target="_blank"
+                                                rel="noopener"><span class="icon--L+lBh twitter--e5tjD"></span></a><a
                                                 href="http://www.pinterest.com.au/pixabay" target="_blank"
                                                 rel="noopener"><span class="icon--L+lBh pinterest--QFbJv"></span></a>
                                         </div>
@@ -7577,77 +7585,19 @@
                             </div>
                         </div>
                         <div class="mobileSearch--WI2Tv"><button class="container--R31bV light--AhiKe"
-                                type="button"><span class="icon--L+lBh search--+Zx4F icon--F8GFg"></span></button></div>
-                        <div class="notifications--uMX7J">
-                            <div class="container--bKEsb">
-                                <div class="tooltipTriggerWrapper--Afzn1"><button
-                                        class="container--R31bV iconButton--at+V4 light--AhiKe" type="button"><span
-                                            class="icon--L+lBh notifications--clc5d icon--F8GFg"></span></button></div>
-                            </div>
+                                type="button"><span class="icon--L+lBh search--+Zx4F icon--F8GFg"></span></button>
                         </div>
-                        <div class="userMenu--BWkSG">
-                            <div class="container--YKYLB">
-                                <div class="triggerWrapper--NACCC"><button
-                                        class="userMenuTrigger--iGCxt buttonBase--r4opq tertiaryButton--+4ehJ base--jzyee light--uBcBI"
-                                        type="button"> <span class="label--Ngqjq">
-                                            <div class="container--RXy5A default--iYncq"><img
-                                                    src="/static/img/profile_images/purple.svg" class="avatar--+DPkq"
-                                                    alt="u_b000xohuim"></div>
-                                        </span></button></div>
-                                <div class="dropdown--QzC2F dark--pbGst right--Yg1-e hidden--Q5vOS">
-                                    <div class="dropdownMenu--XdQD- menu--a1yEW">
-                                        <div class="dropdownMenuHeading--AaOzc">u_b000xohuim</div><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/users/u_b000xohuim-41287407/"><label>My profile</label></a><a
-                                            class="dropdownMenuItem--yZ9j-" href="/accounts/media/"><label>My
-                                                media</label></a><a class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/media/upload/"><label>Upload</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/media/statistics/"><label>Statistics</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/collections/"><label>Collections</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/following/"><label>Following</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/messages/inbox/"><label>Messages</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/images/tools/quality_rating/"><label>Community Voting</label></a><a
-                                            class="dropdownMenuItem--yZ9j-"
-                                            href="/accounts/settings/"><label>Settings</label></a>
-                                        <div class="separator--4zb1P"></div>
-                                        <div class="searchSettings--Dkgzr"><label
-                                                class="wrapper--1s1Mv dark--YLTWZ"><button
-                                                    class="switch--xu-1+ primary--bHqJN" type="button" role="switch"
-                                                    aria-checked="false"><span class="slide--wu0Qe"><span
-                                                            class="knob--OR1vo"></span></span></button><span
-                                                    class="label--9F6qL">SafeSearch</span>
-                                                <div class="tooltipTriggerWrapper--Afzn1 helpIcon--60LmO"><span
-                                                        class="icon--L+lBh question--SOBjo"></span></div>
-                                                <p class="explainer--fqLV+">If you’re using Pixabay in a school or
-                                                    workplace, you can prevent most adult content from showing up by
-                                                    turning on the SafeSearch setting.</p>
-                                            </label><label class="wrapper--1s1Mv dark--YLTWZ"><button
-                                                    class="switch--xu-1+ primary--bHqJN" type="button" role="switch"
-                                                    aria-checked="false"><span class="slide--wu0Qe"><span
-                                                            class="knob--OR1vo"></span></span></button><span
-                                                    class="label--9F6qL">Hide AI generated</span>
-                                                <div class="tooltipTriggerWrapper--Afzn1 helpIcon--60LmO"><span
-                                                        class="icon--L+lBh question--SOBjo"></span></div>
-                                                <p class="explainer--fqLV+">Turn on the Hide AI generated setting to
-                                                    exclude media generated by Artificial Intelligence.</p>
-                                            </label></div>
-                                        <div class="separator--4zb1P"></div>
-                                        <div class="dropdownMenuItem--yZ9j-"><label>Logout</label></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mobileMenu--fvuiT"><button class="container--R31bV light--AhiKe" type="button"><span
-                                    class="icon--L+lBh hamburger--hiKLH icon--F8GFg"></span></button></div><a
-                            class="uploadButton--p9Oz2 buttonBase--r4opq primaryButton--h-+gi base--jzyee"
-                            href="/accounts/media/upload/"><span
+                        <div class="loginLinks--l3oiD"><button
+                                class="loginButton--uIEF2 buttonBase--r4opq tertiaryButton--+4ehJ base--jzyee light--uBcBI">
+                                <span class="label--Ngqjq">Log in</span></button><button
+                                class="loginButton--uIEF2 buttonBase--r4opq secondaryButton--xk9cO base--jzyee light--uBcBI">
+                                <span class="label--Ngqjq">Join</span></button></div>
+                        <div class="mobileMenu--fvuiT"><button class="container--R31bV light--AhiKe"
+                                type="button"><span class="icon--L+lBh hamburger--hiKLH icon--F8GFg"></span></button>
+                        </div><button
+                            class="uploadButton--p9Oz2 buttonBase--r4opq primaryButton--h-+gi base--jzyee"><span
                                 class="icon--L+lBh upload--pkHbe leftIcon--lqX0G"></span> <span
-                                class="label--Ngqjq">Upload</span></a>
+                                class="label--Ngqjq">Upload</span></button>
                     </div>
                 </header>
                 <div class="filters--0MGLT">
